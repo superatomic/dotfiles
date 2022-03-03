@@ -1,0 +1,13 @@
+
+# https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html
+export XDG_CONFIG_HOME=~/.config
+export XDG_DATA_HOME=~/.local/share
+export XDG_CACHE_HOME=~/.cache
+
+export PATH=$PATH:~/.local/bin
+
+# Python
+export PYTHONSTARTUP=$XDG_CONFIG_HOME/.pyrc
+
+# Path to oh-my-zsh installation.
+export ZSH=$XDG_DATA_HOME/oh-my-zsh
