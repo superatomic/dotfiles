@@ -7,6 +7,8 @@ fi
 
 source $XDG_DATA_HOME/iterm2_shell_integration.zsh
 
+# Powerlevel
+source /usr/local/opt/powerlevel10k/powerlevel10k.zsh-theme
 
 plugins=(git zsh-autosuggestions python colored-man-pages heroku httpie)
 source $ZSH/oh-my-zsh.sh
