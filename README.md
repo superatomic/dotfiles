@@ -10,7 +10,9 @@ My personal dotfiles.
 ├── README.md
 └── zsh
     ├── alias
-    └── env
+    ├── env
+    ├── sources
+    └── zshrc
 
-1 directory, 4 files
+1 directory, 6 files
 ```
