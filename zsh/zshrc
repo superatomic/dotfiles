@@ -1,5 +1,4 @@
-#!/usr/local/bin/zsh
 
-source env
-source sources
-source alias
+source ~/.dotfiles/zsh/env
+source ~/.dotfiles/zsh/sources
+source ~/.dotfiles/zsh/alias
