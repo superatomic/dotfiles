@@ -8,7 +8,7 @@ export XDG_CACHE_HOME=~/.cache
 export PATH=$PATH:~/.local/bin
 
 # Python
-export PYTHONSTARTUP=$XDG_CONFIG_HOME/.pyrc
+export PYTHONSTARTUP=$XDG_CONFIG_HOME/pythonrc.py
 
 EDITOR=$(which nano)
 export EDITOR
