@@ -5,17 +5,18 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-source $XDG_DATA_HOME/iterm2_shell_integration.zsh
+source "$XDG_DATA_HOME"/iterm2_shell_integration.zsh
 
 # Powerlevel
 source /usr/local/opt/powerlevel10k/powerlevel10k.zsh-theme
 
-plugins=(git zsh-autosuggestions python colored-man-pages heroku httpie)
-source $ZSH/oh-my-zsh.sh
+plugins=(zsh-autosuggestions colored-man-pages)
+
+source "$ZSH"/oh-my-zsh.sh
 
 # Autocomplete
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-[[ ! -f $XDG_CONFIG_HOME/p10k.zsh ]] || source $XDG_CONFIG_HOME/p10k.zsh
+[[ ! -f "$XDG_CONFIG_HOME"/p10k.zsh ]] || source "$XDG_CONFIG_HOME"/p10k.zsh
 
 eval $(thefuck --alias)
