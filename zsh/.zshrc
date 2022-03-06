@@ -1,0 +1,1 @@
+/Users/Ethan/.dotfiles/zsh/zshrc
