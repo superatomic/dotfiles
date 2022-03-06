@@ -10,6 +10,9 @@ My personal dotfiles.
 ├── README.md
 ├── bash
 │   └── bash_profile
+├── bin
+│   └── pyproj.zsh
+├── config
 ├── install.zsh
 ├── symlink.zsh
 └── zsh
@@ -18,5 +21,5 @@ My personal dotfiles.
     ├── sources
     └── zshrc
 
-4 directories, 9 files
+4 directories, 10 files
 ```
