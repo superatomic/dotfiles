@@ -5,14 +5,18 @@ My personal dotfiles.
 
 ### Dotfiles Structure
 ```
-.dotfiles
+.
 ├── LICENSE
 ├── README.md
+├── bash
+│   └── bash_profile
+├── install.zsh
+├── symlink.zsh
 └── zsh
     ├── alias
     ├── env
     ├── sources
     └── zshrc
 
-1 directory, 6 files
+4 directories, 9 files
 ```
