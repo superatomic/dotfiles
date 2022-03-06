@@ -5,7 +5,7 @@ My personal dotfiles.
 
 ### Dotfiles Structure
 ```
-.
+.dotfiles
 ├── LICENSE
 ├── README.md
 ├── bash
