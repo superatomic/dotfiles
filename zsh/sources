@@ -20,3 +20,8 @@ source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 [[ ! -f "$XDG_CONFIG_HOME"/p10k.zsh ]] || source "$XDG_CONFIG_HOME"/p10k.zsh
 
 eval $(thefuck --alias)
+
+# * Heroku Autocomplete setup
+# * We can't run this until the heroku cli implements a fix to https://github.com/heroku/cli/issues/1956.
+# * Until then, this will be commented out.
+# HEROKU_AC_ZSH_SETUP_PATH=/Users/Ethan/Library/Caches/heroku/autocomplete/zsh_setup && test -f $HEROKU_AC_ZSH_SETUP_PATH && source $HEROKU_AC_ZSH_SETUP_PATH;
