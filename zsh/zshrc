@@ -1,4 +1,2 @@
-
-source ~/.dotfiles/zsh/env
-source ~/.dotfiles/zsh/sources
-source ~/.dotfiles/zsh/alias
+source "$XDG_CONFIG_HOME"/zsh/sources
+source "$XDG_CONFIG_HOME"/zsh/alias
