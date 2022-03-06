@@ -5,3 +5,5 @@ export XDG_CACHE_HOME=~/.cache
 
 # https://unix.stackexchange.com/questions/145250/where-is-bashs-history-stored
 export HISTFILE=$XDG_STATE_HOME/bash_history
+
+source "$XDG_DATA_HOME"/iterm2_shell_integration.bash
