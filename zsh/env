@@ -19,6 +19,7 @@ export PATH=$PATH:$BIN_HOME:$BIN_HOME/iterm2/
 # Python
 export PYTHONSTARTUP=$XDG_CONFIG_HOME/pythonrc.py
 
+# Editor
 EDITOR=$(which nano)
 export EDITOR
 
