@@ -8,8 +8,10 @@ ln -sn "$ZDOTDIR"/zshrc "$ZDOTDIR"/.zshrc
 
 ln -sn ~/.dotfiles/bash/bash_profile ~/.bash_profile
 
+
 # Symlink all files in bin to the home bin folder.
 # Credit https://zaiste.net/posts/zsh-get-filename-extension-path/.
+mkdir -p "$BIN_HOME"
 for file in ~/.dotfiles/bin/*(*); do
   ln -sn "$file" "$BIN_HOME"/"$file:t:r";
 done

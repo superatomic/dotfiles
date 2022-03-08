@@ -7,14 +7,12 @@ export XDG_CACHE_HOME=~/.cache
 
 export BIN_HOME=~/.local/bin
 
+export PATH=$PATH:$BIN_HOME:$BIN_HOME/iterm2/
+
 export ZDOTDIR=$XDG_CONFIG_HOME/zsh
-
 export HISTFILE=$XDG_STATE_HOME/zsh_history
-
 export ZSH_COMPDUMP=$XDG_CACHE_HOME/zsh/zcompdump
 export ZSH_CACHE_DIR=$XDG_CACHE_HOME/oh-my-zsh
-
-export PATH=$PATH:$BIN_HOME:$BIN_HOME/iterm2/
 
 # Python
 export PYTHONSTARTUP=$XDG_CONFIG_HOME/pythonrc.py
