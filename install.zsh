@@ -1,3 +1,3 @@
 #!/usr/local/bin/zsh
 
-./symlink.zsh
+~/.dotfiles/symlink.zsh
