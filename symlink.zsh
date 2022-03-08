@@ -1,5 +1,5 @@
 #!/usr/local/bin/zsh
-ln -sn ~/.dotfiles/zsh/env ~/.zshenv
+ln -sn ~/.dotfiles/zsh/zshenv ~/.zshenv
 mkdir -p "$ZDOTDIR"
 for file in ~/.dotfiles/zsh/*; do
   ln -sn "$file" "$ZDOTDIR"/"$file:t";

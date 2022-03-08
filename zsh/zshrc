@@ -1,2 +1,2 @@
-source "$XDG_CONFIG_HOME"/zsh/sources
-source "$XDG_CONFIG_HOME"/zsh/alias
+source "$XDG_CONFIG_HOME"/zsh/sources.zsh
+source "$XDG_CONFIG_HOME"/zsh/alias.zsh

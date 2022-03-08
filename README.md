@@ -17,9 +17,9 @@ My personal dotfiles.
 ├── install.zsh
 ├── symlink.zsh
 └── zsh
-    ├── alias
-    ├── env
-    ├── sources
+    ├── alias.zsh
+    ├── sources.zsh
+    ├── zshenv
     └── zshrc
 
 4 directories, 11 files
