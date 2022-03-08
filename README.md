@@ -12,6 +12,7 @@ My personal dotfiles.
 ├── bash
 │   └── bash_profile
 ├── bin
+│   ├── dotfiles.zsh
 │   └── pyproj.zsh
 ├── config
 ├── install.zsh
@@ -22,5 +23,5 @@ My personal dotfiles.
     ├── zshenv
     └── zshrc
 
-4 directories, 11 files
+4 directories, 12 files
 ```
