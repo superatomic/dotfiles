@@ -6,6 +6,7 @@ My personal dotfiles.
 ### Dotfiles Structure
 ```
 .dotfiles
+├── Brewfile
 ├── LICENSE
 ├── README.md
 ├── bash
@@ -21,5 +22,5 @@ My personal dotfiles.
     ├── sources
     └── zshrc
 
-4 directories, 10 files
+4 directories, 11 files
 ```
