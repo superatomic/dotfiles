@@ -15,3 +15,5 @@ mkdir -p "$BIN_HOME"
 for file in ~/.dotfiles/bin/*(*); do
   ln -sn "$file" "$BIN_HOME"/"$file:t:r";
 done
+
+ln -sn ~/.dotfiles/config/pythonrc.py "$XDG_CONFIG_HOME"/pythonrc.py

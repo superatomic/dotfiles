@@ -15,6 +15,7 @@ My personal dotfiles.
 │   ├── dotfiles.zsh
 │   └── pyproj.zsh
 ├── config
+│   └── pythonrc.py
 ├── install.zsh
 ├── symlink.zsh
 └── zsh
@@ -23,5 +24,5 @@ My personal dotfiles.
     ├── zshenv
     └── zshrc
 
-4 directories, 12 files
+4 directories, 13 files
 ```
