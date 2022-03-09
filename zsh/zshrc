@@ -1,3 +1,3 @@
-source "$XDG_CONFIG_HOME"/zsh/sources.zsh
-source "$XDG_CONFIG_HOME"/zsh/alias.zsh
-source "$XDG_CONFIG_HOME"/zsh/functions.zsh
+source "$ZDOTDIR/sources.zsh"
+source "$ZDOTDIR/alias.zsh"
+source "$ZDOTDIR/functions.zsh"
