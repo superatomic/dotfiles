@@ -1,3 +1,4 @@
+source "$ZDOTDIR/colors.zsh"
 source "$ZDOTDIR/sources.zsh"
 source "$ZDOTDIR/alias.zsh"
 source "$ZDOTDIR/functions.zsh"
