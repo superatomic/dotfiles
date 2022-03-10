@@ -13,16 +13,19 @@ My personal dotfiles.
 │   └── bash_profile
 ├── bin
 │   ├── dotfiles.zsh
-│   └── pyproj.zsh
+│   ├── pyproj.zsh
+│   └── sln.zsh
 ├── config
 │   └── pythonrc.py
 ├── install.zsh
 ├── symlink.zsh
 └── zsh
     ├── alias.zsh
+    ├── colors.zsh
+    ├── functions.zsh
     ├── sources.zsh
     ├── zshenv
     └── zshrc
 
-4 directories, 13 files
+4 directories, 16 files
 ```
