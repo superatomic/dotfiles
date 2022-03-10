@@ -9,3 +9,6 @@ alias ls=exa
 alias frick=fuck
 alias darn=fuck
 alias f=fuck
+
+# sln from dotfiles/bin/sln
+alias slink=sln
