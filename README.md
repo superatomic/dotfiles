@@ -13,6 +13,7 @@ My personal dotfiles.
 │   └── bash_profile
 ├── bin
 │   ├── dotfiles.zsh
+│   ├── printmsg.zsh
 │   ├── pyproj.zsh
 │   └── sln.zsh
 ├── config
@@ -27,5 +28,6 @@ My personal dotfiles.
     ├── zshenv
     └── zshrc
 
-4 directories, 16 files
+4 directories, 17 files
 ```
+
