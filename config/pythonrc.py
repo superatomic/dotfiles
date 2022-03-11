@@ -40,5 +40,5 @@ def _interactive_info():
     print('\N{ESC}[36m' + 'Added variables: ' + namespace + '\N{ESC}[0m')
 
 
-_interactive_info()
 _set_ps()
+_interactive_info()
