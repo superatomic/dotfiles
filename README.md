@@ -6,7 +6,6 @@ My personal dotfiles.
 ### Dotfiles Structure
 ```
 .dotfiles
-├── Brewfile
 ├── LICENSE
 ├── README.md
 ├── bash
@@ -16,6 +15,9 @@ My personal dotfiles.
 │   ├── printmsg.zsh
 │   ├── pyproj.zsh
 │   └── sln.zsh
+├── brew
+│   ├── Brewfile
+│   └── install.zsh
 ├── config
 │   └── pythonrc.py
 ├── install.zsh
@@ -28,6 +30,6 @@ My personal dotfiles.
     ├── zshenv
     └── zshrc
 
-4 directories, 17 files
+5 directories, 18 files
 ```
 

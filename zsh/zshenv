@@ -25,7 +25,7 @@ export EDITOR
 export ZSH=$XDG_DATA_HOME/oh-my-zsh
 
 # Homebrew
-export HOMEBREW_BUNDLE_FILE=~/.dotfiles/Brewfile
+export HOMEBREW_BUNDLE_FILE=~/.dotfiles/brew/Brewfile
 export HOMEBREW_BAT=1
 export HOMEBREW_INSTALL_BADGE="▶︎"
 export HOMEBREW_NO_ANALYTICS=1
