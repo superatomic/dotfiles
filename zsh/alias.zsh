@@ -3,7 +3,7 @@ alias pip=pip3
 alias coffee=caffeinate
 
 alias cat=bat
-alias ls=exa
+alias ls="exa --classify --icons"
 
 # F*** it!
 alias frick=fuck
