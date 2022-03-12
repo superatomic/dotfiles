@@ -19,7 +19,10 @@ My personal dotfiles.
 │   ├── Brewfile
 │   └── install.zsh
 ├── config
-│   └── pythonrc.py
+│   ├── pythonrc.py
+│   └── starship.toml
+├── fish
+│   └── fisher.fish
 ├── install.zsh
 ├── symlink.zsh
 └── zsh
@@ -30,6 +33,6 @@ My personal dotfiles.
     ├── zshenv
     └── zshrc
 
-5 directories, 18 files
+6 directories, 20 files
 ```
 
