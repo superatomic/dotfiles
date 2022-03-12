@@ -21,4 +21,7 @@ for file in ~/.dotfiles/bin/*(*); do
   sln "$file" "$BIN_HOME"/"$file:t:r";
 done
 
-sln ~/.dotfiles/config/pythonrc.py "$XDG_CONFIG_HOME"/pythonrc.py
+# Symlink all files in config into $XDG_CONFIG_HOME
+for file in ~/.dotfiles/config/*; do
+  sln "$file" "$XDG_CONFIG_HOME"/"$file:t";
+done
