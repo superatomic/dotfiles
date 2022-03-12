@@ -14,6 +14,9 @@ export HISTFILE=$XDG_STATE_HOME/zsh_history
 export ZSH_COMPDUMP=$XDG_CACHE_HOME/zsh/zcompdump
 export ZSH_CACHE_DIR=$XDG_CACHE_HOME/oh-my-zsh
 
+# https://superuser.com/questions/82123/
+export __CF_USER_TEXT_ENCODING="0x0:0:0"
+
 # Python
 export PYTHONSTARTUP=$XDG_CONFIG_HOME/pythonrc.py
 
