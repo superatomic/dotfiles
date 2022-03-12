@@ -30,7 +30,7 @@ def _set_ps():
     sys.ps2 = '\N{ESC}[33m' + '... ' + '\N{ESC}[0m'
 
 
-def _interactive_info():
+def _print_interactive_info():
     """Print all of the variables that have been made available."""
     namespace = ', '.join(
         name
@@ -74,4 +74,5 @@ def _set_python_history_home():
 
 _set_python_history_home()
 _set_ps()
-_interactive_info()
+
+_print_interactive_info()
