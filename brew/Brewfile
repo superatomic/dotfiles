@@ -34,6 +34,7 @@ brew "youtube-dl"
 brew "zsh-syntax-highlighting"
 brew "fish"
 brew "fisher"
+brew "starship"
 brew "neofetch"
 
 cask "eul"
