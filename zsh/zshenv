@@ -13,6 +13,8 @@ export ZDOTDIR=$XDG_CONFIG_HOME/zsh
 export HISTFILE=$XDG_STATE_HOME/zsh_history
 export ZSH_COMPDUMP=$XDG_CACHE_HOME/zsh/zcompdump
 export ZSH_CACHE_DIR=$XDG_CACHE_HOME/oh-my-zsh
+# Fix for https://superuser.com/a/414953
+DISABLE_AUTO_TITLE="true"
 
 # https://superuser.com/questions/82123/
 export __CF_USER_TEXT_ENCODING="0x0:0:0"
