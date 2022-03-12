@@ -33,6 +33,7 @@ brew "zsh"
 brew "youtube-dl"
 brew "zsh-syntax-highlighting"
 brew "fish"
+brew "fisher"
 
 cask "eul"
 cask "font-fira-code"
