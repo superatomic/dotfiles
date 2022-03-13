@@ -1,4 +1,9 @@
-alias python=python3
+alias reload='source "$ZDOTDIR/zshenv" && source "$ZDOTDIR/zshrc"'
+alias edit='$EDITOR'
+
+alias python="python3 -q"
+alias python3="python3 -q"
+alias python2="python2 -q"
 alias pip=pip3
 alias coffee=caffeinate
 
