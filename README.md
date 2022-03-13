@@ -12,6 +12,7 @@ My personal dotfiles.
 │   └── bash_profile
 ├── bin
 │   ├── dotfiles.zsh
+│   ├── peval.zsh
 │   ├── printmsg.zsh
 │   ├── pyproj.zsh
 │   └── sln.zsh
@@ -22,17 +23,19 @@ My personal dotfiles.
 │   ├── pythonrc.py
 │   └── starship.toml
 ├── fish
-│   └── fisher.fish
+│   ├── fisher.fish
+│   └── install.fish
 ├── install.zsh
 ├── symlink.zsh
+├── macos
+│   └── install.zsh
 └── zsh
     ├── alias.zsh
-    ├── colors.zsh
     ├── functions.zsh
     ├── sources.zsh
     ├── zshenv
     └── zshrc
 
-6 directories, 20 files
+7 directories, 22 files
 ```
 
