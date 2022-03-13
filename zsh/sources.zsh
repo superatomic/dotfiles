@@ -9,8 +9,6 @@ source "$ZSH"/oh-my-zsh.sh
 # Autocomplete
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-[[ ! -f "$XDG_CONFIG_HOME"/p10k.zsh ]] || source "$XDG_CONFIG_HOME"/p10k.zsh
-
 eval $(thefuck --alias)
 
 # * Heroku Autocomplete setup
