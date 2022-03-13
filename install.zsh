@@ -2,7 +2,7 @@
 
 ~/.dotfiles/symlink.zsh
 ~/.dotfiles/brew/install.zsh
-fish ~/.dotfiles/fish/fisher.fish
+~/.dotfiles/fish/install.fish
 
 neofetch
 printmsg success "Finished dotfile installation!"
