@@ -2,7 +2,9 @@
 # Symlinks files into usable locations.
 
 alias sln=~/.dotfiles/bin/sln.zsh
+alias printmsg=~/.dotfiles/bin/printmsg.zsh
 
+printmsg action "Symlinking files..."
 
 sln ~/.dotfiles/zsh/zshenv ~/.zshenv
 mkdir -p "$ZDOTDIR"
@@ -25,3 +27,5 @@ done
 for file in ~/.dotfiles/config/*; do
   sln "$file" "$XDG_CONFIG_HOME"/"$file:t";
 done
+
+printmsg success "Symlinked files successfully"

@@ -8,7 +8,8 @@ if ! type brew &>/dev/null; then
 else
   printmsg info "Homebrew is already installed"
 fi
-printmsg info "Installing from Brewfile..."; brew bundle --no-lock install
 
-brew update
-brew upgrade
+printmsg action "Setting up homebrew..."
+
+peval "brew bundle --no-lock --cleanup install"
+peval "brew doctor"
