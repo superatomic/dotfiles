@@ -6,7 +6,7 @@ My personal dotfiles.
 
 ## Installation
 
-1. Change the current shell to `zsh`.
+1. Change the current shell to `zsh`:
    ```sh
    chsh -s /bin/zsh
    ```
@@ -14,7 +14,7 @@ My personal dotfiles.
    ```zsh
    git clone https://github.com/superatomic/dotfiles.git ~/.dotfiles
    ```
-3. Source the install script.
+3. Source the install script:
    ```zsh
    source ~/.dotfiles/install.zsh
    ```
