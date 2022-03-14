@@ -6,7 +6,23 @@ My personal dotfiles.
 
 ## Installation
 
-### Dotfiles Structure
+1. Change the current shell to `zsh`.
+   ```sh
+   chsh -s /bin/zsh
+   ```
+2. Copy the dotfiles directory to `~/.dotfiles`:
+   ```zsh
+   git clone https://github.com/superatomic/dotfiles.git ~/.dotfiles
+   ```
+3. Source the install script.
+   ```zsh
+   source ~/.dotfiles/install.zsh
+   ```
+   *If you are using these dotfiles as a template,
+   make sure to make your own modifications before sourcing the install script.*
+
+
+## Dotfiles Structure
 ```
 .dotfiles
 ├── LICENSE
