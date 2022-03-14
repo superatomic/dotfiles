@@ -12,3 +12,4 @@ printmsg success 'Finished dotfile installation!'
 source peval "source \"\$ZDOTDIR/.zshrc\""
 
 peval neofetch
+printmsg success 'Done!'
