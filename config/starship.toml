@@ -26,6 +26,7 @@ style = "dimmed white"
 
 [python]
 symbol = " "
+python_binary = ["python3"]  # Ignore python 2
 
 [status]
 disabled = false
