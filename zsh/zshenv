@@ -23,6 +23,9 @@ export __CF_USER_TEXT_ENCODING="0x0:0:0"
 # Python
 export PYTHONSTARTUP=$XDG_CONFIG_HOME/pythonrc.py
 
+# Rust
+export CARGO_HOME=$XDG_CACHE_HOME/cargo
+
 # Editor
 EDITOR=$(which nano)
 export EDITOR
