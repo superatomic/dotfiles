@@ -36,6 +36,7 @@ brew "fish"
 brew "fisher"
 brew "starship"
 brew "neofetch"
+brew "rust"
 
 cask "eul"
 cask "font-fira-code"
