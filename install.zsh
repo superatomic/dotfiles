@@ -3,8 +3,10 @@
 source ~/.dotfiles/zsh/zshenv
 
 ~/.dotfiles/symlink.zsh
-~/.dotfiles/macos/install.zsh
-~/.dotfiles/brew/install.zsh
+if [[ $(uname) == "Darwin" ]]; then
+  ~/.dotfiles/macos/install.zsh
+  ~/.dotfiles/brew/install.zsh
+fi
 ~/.dotfiles/fish/install.fish
 
 printmsg success 'Finished dotfile installation!'
