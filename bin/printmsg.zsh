@@ -12,6 +12,8 @@ elif [ "$1" = 'success' ]; then
   color="$BRIGHT$GREEN "
 elif [ "$1" = 'error' ]; then
   color=$BRIGHT$RED
+elif [ "$1" = 'prompt' ]; then
+  color=$BRIGHT$MAGENTA$UNDERLINE
 elif [ "$1" = '' ]; then
   $0 error "Error: Requires a message type" 1>&2
   exit 1
