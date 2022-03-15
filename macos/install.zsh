@@ -13,5 +13,4 @@ else
   printmsg info 'Command Line Developer Tools are installed!'
 fi
 
-# printmsg prompt 'Run macOS software update?'
-peval "softwareupdate --all --install --force"
+peval "softwareupdate --all --install"
