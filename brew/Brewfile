@@ -1,46 +1,61 @@
-tap "heroku/brew"
+
+# Core Taps
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 tap "homebrew/core"
 
+# Third-Party Taps
+tap "heroku/brew"
+
+
+# Programming Languages
+brew "python@3.8"
+brew "python@3.10"
+brew "rust"
+brew "ruby"
+
+# Shell
+brew "starship"
+brew "zsh"
+brew "zsh-syntax-highlighting"
+brew "fish"
+brew "fisher"
+
+# Command Line Tools
 brew "bat"
-brew "cmatrix"
 brew "exa"
-brew "ffmpeg"
+brew "micro"
 brew "gh"
 brew "git"
-brew "gnupg"
-brew "heroku/brew/heroku"
+brew "ffmpeg"
 brew "imagemagick"
+brew "tree"
+brew "cmatrix"
+brew "youtube-dl"
+brew "neofetch"
+brew "heroku/brew/heroku"
+
+# Other brews
+brew "gnupg"
 brew "jansson"
 brew "makedepend"
-brew "micro"
 brew "nghttp2"
 brew "openssl@3"
 brew "portaudio"
 brew "pv"
-brew "python@3.8"
-brew "python@3.10"
 brew "rtmpdump"
-brew "ruby"
 brew "sox"
 brew "sphinx-doc"
 brew "swig"
 brew "thefuck"
-brew "tree"
-brew "zsh"
-brew "youtube-dl"
-brew "zsh-syntax-highlighting"
-brew "fish"
-brew "fisher"
-brew "starship"
-brew "neofetch"
-brew "rust"
 
-cask "eul"
+# Fonts
 cask "font-fira-code"
 cask "font-hack-nerd-font"
+
+# Applications
+cask "eul"
 cask "gimp"
 cask "krita"
 cask "librewolf"
