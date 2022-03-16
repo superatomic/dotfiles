@@ -27,7 +27,7 @@ export PYTHONSTARTUP=$XDG_CONFIG_HOME/pythonrc.py
 export CARGO_HOME=$XDG_CACHE_HOME/cargo
 
 # Editor
-EDITOR=$(which nano)
+EDITOR=$(which micro)
 export EDITOR
 
 # Path to oh-my-zsh installation.
