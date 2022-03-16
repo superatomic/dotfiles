@@ -12,4 +12,5 @@ fi
 printmsg action "Setting up homebrew..."
 
 peval "brew bundle --no-lock --cleanup install"
+peval "brew upgrade"
 peval "brew doctor"
