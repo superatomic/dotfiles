@@ -57,10 +57,17 @@ cask "font-hack-nerd-font"
 
 # Applications
 cask "eul"
+cask "iina"
+cask "keeweb"
+
 cask "gimp"
 cask "krita"
+
 cask "librewolf"
+
 cask "obsidian"
 cask "typora"
+
 cask "unity"
 cask "unity-hub"
+cask "godot"
