@@ -52,6 +52,7 @@ brew "thefuck"
 
 # Fonts
 cask "font-fira-code"
+cask "font-fira-code-nerd-font"
 cask "font-hack-nerd-font"
 
 # Applications
