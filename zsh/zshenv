@@ -39,6 +39,9 @@ export PYTHONSTARTUP=$XDG_CONFIG_HOME/pythonrc.py
 # Rust
 export CARGO_HOME=$XDG_CACHE_HOME/cargo
 
+# Platform IO
+export PLATFORMIO_CORE_DIR=$XDG_DATA_HOME/platformio  # It's kind of a cache, but it's also other stuff.
+
 # Editor
 EDITOR=$(which micro)
 export EDITOR
