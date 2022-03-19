@@ -64,6 +64,7 @@ cask "gimp"
 cask "krita"
 
 cask "librewolf"
+cask "element"
 
 cask "obsidian"
 cask "typora"
