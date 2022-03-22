@@ -39,6 +39,8 @@ My personal dotfiles.
 │   ├── Brewfile
 │   └── install.zsh
 ├── config
+│   ├── micro
+│   │   └── settings.json
 │   ├── pythonrc.py
 │   └── starship.toml
 ├── fish
@@ -55,6 +57,6 @@ My personal dotfiles.
     ├── zshenv
     └── zshrc
 
-7 directories, 22 files
+8 directories, 23 files
 ```
 
