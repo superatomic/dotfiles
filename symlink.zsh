@@ -24,8 +24,9 @@ for file in ~/.dotfiles/bin/*(*); do
 done
 
 # Symlink all files in config into $XDG_CONFIG_HOME
-for file in ~/.dotfiles/config/*; do
-  sln "$file" "$XDG_CONFIG_HOME/$file:t";
+dotfiles_home=~/.dotfiles/config
+for file in "$dotfiles_home"/**/*(.); do
+  sln "$file" "$XDG_CONFIG_HOME${file#$dotfiles_home}";
 done
 
 printmsg success "Symlinked files successfully"
