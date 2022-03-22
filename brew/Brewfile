@@ -68,6 +68,7 @@ cask "element"
 
 cask "obsidian"
 cask "typora"
+cask "textmate"
 
 cask "unity"
 cask "unity-hub"
