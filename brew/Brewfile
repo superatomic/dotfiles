@@ -32,7 +32,7 @@ brew "ffmpeg"
 brew "imagemagick"
 brew "tree"
 brew "cmatrix"
-brew "youtube-dl"
+brew "yt-dlp"
 brew "neofetch"
 brew "heroku/brew/heroku"
 
