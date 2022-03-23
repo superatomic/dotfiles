@@ -15,4 +15,5 @@ brew developer off
 
 peval "brew bundle --no-lock --cleanup install"
 peval "brew upgrade"
+peval "brew cleanup"
 peval "brew doctor"
