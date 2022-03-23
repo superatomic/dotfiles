@@ -28,6 +28,7 @@ brew "exa"
 brew "micro"
 brew "gh"
 brew "git"
+brew "ptpython"
 brew "ffmpeg"
 brew "imagemagick"
 brew "tree"
@@ -49,6 +50,7 @@ brew "sox"
 brew "sphinx-doc"
 brew "swig"
 brew "thefuck"
+brew "nativefier"
 
 # Fonts
 cask "font-fira-code"
@@ -58,7 +60,6 @@ cask "font-hack-nerd-font"
 # Applications
 cask "eul"
 cask "iina"
-cask "keeweb"
 
 cask "gimp"
 cask "krita"
