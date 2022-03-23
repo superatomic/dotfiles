@@ -59,6 +59,7 @@ cask "font-jetbrains-mono-nerd-font"
 # Applications
 cask "eul"
 cask "iina"
+cask "balenaetcher"
 cask "iterm2"
 
 cask "jetbrains-toolbox"
