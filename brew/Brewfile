@@ -60,6 +60,8 @@ cask "font-jetbrains-mono-nerd-font"
 cask "eul"
 cask "iina"
 
+cask "jetbrains-toolbox"
+
 cask "gimp"
 cask "krita"
 
