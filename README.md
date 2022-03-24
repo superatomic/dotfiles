@@ -41,6 +41,8 @@ My personal dotfiles.
 ├── config
 │   ├── micro
 │   │   └── settings.json
+│   ├── neofetch
+│   │   └── config.conf
 │   ├── pythonrc.py
 │   └── starship.toml
 ├── fish
@@ -57,6 +59,6 @@ My personal dotfiles.
     ├── zshenv
     └── zshrc
 
-8 directories, 23 files
+9 directories, 24 files
 ```
 
