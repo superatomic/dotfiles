@@ -7,6 +7,8 @@ elif [ "$1" = 'symlink' ]; then
   ~/.dotfiles/symlink.zsh
 elif [ "$1" = 'brewfile' ]; then
   $EDITOR ~/.dotfiles/brew/Brewfile
+elif [ "$1" = 'brew' ]; then
+  ~/.dotfiles/brew/install.zsh
 elif [ "$1" = 'self-edit' ]; then
   $EDITOR "$0"
 elif [ "$1" = '' ]; then
