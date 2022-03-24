@@ -48,7 +48,6 @@ brew "sox"
 brew "sphinx-doc"
 brew "swig"
 brew "thefuck"
-brew "nativefier"
 
 # Fonts
 cask "font-fira-code"
