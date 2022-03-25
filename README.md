@@ -39,6 +39,8 @@ My personal dotfiles.
 │   ├── Brewfile
 │   └── install.zsh
 ├── config
+│   ├── fish
+│   │   └── config.fish
 │   ├── micro
 │   │   └── settings.json
 │   ├── neofetch
@@ -59,6 +61,6 @@ My personal dotfiles.
     ├── zshenv
     └── zshrc
 
-9 directories, 24 files
+10 directories, 25 files
 ```
 
