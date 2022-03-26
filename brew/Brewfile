@@ -61,7 +61,7 @@ cask "balenaetcher"
 cask "iterm2"
 
 cask "jetbrains-toolbox"
-cask "visual-studio-code"
+cask "vscodium"
 
 cask "gimp"
 cask "krita"
