@@ -37,6 +37,10 @@ def _set_ps():
     sys.ps2 = '\N{ESC}[33m' + '... ' + '\N{ESC}[0m'
 
 
+def _print_python_version():
+    print('\N{ESC}[90m' + sys.version + '\N{ESC}[0m')
+
+
 def _print_interactive_info():
     """Print all of the variables that have been made available."""
     namespace = ', '.join(
@@ -83,4 +87,5 @@ def _set_python_history_home():
 _set_python_history_home()
 _set_ps()
 
+_print_python_version()
 _print_interactive_info()
