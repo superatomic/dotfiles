@@ -43,12 +43,15 @@ def _print_python_version():
 
 def _print_interactive_info():
     """Print all of the variables that have been made available."""
-    namespace = ', '.join(
-        name
-        for name in globals()
+    namespace = {
+       name: value
+        for name, value in globals().items()
         if not name.startswith('_')
-    )
-    print('\N{ESC}[36m' + 'Added variables: ' + namespace + '\N{ESC}[0m')
+    }
+    modules_namespace = ', '.join(name for name, value in namespace.items() if inspect.ismodule(value))
+    other_namespace = ', '.join(name for name, value in namespace.items() if callable(value))
+    print('\N{ESC}[36m' + 'Imported modules: ' + modules_namespace + '\N{ESC}[0m')
+    print('\N{ESC}[36m' + 'Added functions: ' + other_namespace + '\N{ESC}[0m')
 
 
 def _set_python_history_home():
