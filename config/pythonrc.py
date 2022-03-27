@@ -5,8 +5,10 @@ Runs at python's interactive mode startup and provides convenient imports and fu
 """
 __author__ = 'Ethan Kinnear (https://github.com/superatomic)'
 
-import sys, os, asyncio, time
+import sys, os, asyncio, time, itertools, functools, inspect
 from importlib import reload
+from contextlib import suppress
+from time import sleep
 
 
 def read_file(file_name, split_lines=False):
