@@ -50,7 +50,8 @@ def _set_python_history_home():
     from readline import read_history_file, write_history_file
     from atexit import register
 
-    history_file = os.path.join(os.getenv('XDG_STATE_HOME'), 'python_history')
+    default_xdg_state_home = os.path.expanduser('~/.local/state')
+    history_file = os.path.join(os.getenv('XDG_STATE_HOME', default=default_xdg_state_home), 'python_history')
 
     # Read Setup
     try:
