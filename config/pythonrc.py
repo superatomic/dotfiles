@@ -26,6 +26,11 @@ def read_file(file_name, split_lines=False):
             return file.read()
 
 
+def await_(coroutine):
+    """Runs an coroutine, for use in debugging asynchronous functions."""
+    return asyncio.run(awaitable, debug=True)
+
+
 def _set_ps():
     """Set the default python prompts to include color."""
     sys.ps1 = '\N{ESC}[33m' + '>>> ' + '\N{ESC}[0m'
