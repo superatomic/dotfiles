@@ -38,6 +38,7 @@ def _set_ps():
 
 
 def _print_python_version():
+    """Print the python version info from `sys.version`."""
     print('\N{ESC}[90m' + sys.version + '\N{ESC}[0m')
 
 
