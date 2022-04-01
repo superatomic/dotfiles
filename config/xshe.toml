@@ -1,0 +1,73 @@
+#############################################################
+# Cross-Shell Environment Variable Configuration using Xshe #
+#            https://github.com/superatomic/xshe            #
+#############################################################
+
+DOTFILE_DIR = "$HOME/.dotfiles"
+
+# https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html
+XDG_CONFIG_HOME = "$HOME/.config"
+XDG_DATA_HOME = "$HOME/.local/share"
+XDG_STATE_HOME = "$HOME/.local/state"
+XDG_CACHE_HOME = "$HOME/.cache"
+
+BIN_HOME = "$HOME/.local/bin"
+
+# Rust
+CARGO_HOME = "$XDG_DATA_HOME/cargo"
+
+PATH = ["$PATH", "$BIN_HOME", "$BIN_HOME/iterm2", "$CARGO_HOME/bin"]
+
+# Homebrew
+HOMEBREW_BUNDLE_FILE = "$DOTFILE_DIR/brew/Brewfile"
+HOMEBREW_BAT = "1"
+HOMEBREW_NO_INSTALL_CLEANUP = "0"
+HOMEBREW_INSTALL_BADGE = "▶︎"
+HOMEBREW_NO_ANALYTICS = "1"
+HOMEBREW_BUNDLE_NO_LOCK = "1"
+
+# Fix for https://superuser.com/a/414953
+DISABLE_AUTO_TITLE="true"
+
+# https://superuser.com/questions/82123/
+__CF_USER_TEXT_ENCODING = "'0x0:0:0'"
+
+# Python
+PYTHONSTARTUP = "$XDG_CONFIG_HOME/pythonrc.py"
+
+# Platform IO
+PLATFORMIO_CORE_DIR = "$XDG_DATA_HOME/platformio"  # It's kind of a cache, but it's also other stuff.
+
+# Editor
+EDITOR="$(which micro)"
+
+# Less
+LESSHISTFILE = "$XDG_STATE_HOME/lesshst"
+
+# Colors
+# Help from https://stackoverflow.com/questions/4332478/read-the-current-text-color-in-a-xterm/4332530#4332530
+BLACK = "$(tput setaf 0)"
+RED = "$(tput setaf 1)"
+GREEN = "$(tput setaf 2)"
+YELLOW = "$(tput setaf 3)"
+BLUE = "$(tput setaf 4)"
+MAGENTA = "$(tput setaf 5)"
+CYAN = "$(tput setaf 6)"
+WHITE = "$(tput setaf 7)"
+BRIGHT = "$(tput bold)"
+UNDERLINE = "$(tput smul)"
+REVERSE = "$(tput smso)"
+NORMAL = "$(tput sgr0)"
+
+[shell.bash]
+# https://unix.stackexchange.com/questions/145250/where-is-bashs-history-stored
+HISTFILE = "$XDG_STATE_HOME/bash_history"
+
+[shell.zsh]
+ZDOTDIR = "$XDG_CONFIG_HOME/zsh"
+HISTFILE = "$XDG_STATE_HOME/zsh_history"
+ZSH_COMPDUMP = "$XDG_CACHE_HOME/zsh/zcompdump"
+ZSH_CACHE_DIR = "$XDG_CACHE_HOME/oh-my-zsh"
+
+# Path to oh-my-zsh installation.
+ZSH = "$XDG_DATA_HOME/oh-my-zsh"
