@@ -3,15 +3,15 @@
 #            https://github.com/superatomic/xshe            #
 #############################################################
 
-DOTFILE_DIR = "$HOME/.dotfiles"
+DOTFILE_DIR = "~/.dotfiles"
 
 # https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html
-XDG_CONFIG_HOME = "$HOME/.config"
-XDG_DATA_HOME = "$HOME/.local/share"
-XDG_STATE_HOME = "$HOME/.local/state"
-XDG_CACHE_HOME = "$HOME/.cache"
+XDG_CONFIG_HOME = "~/.config"
+XDG_DATA_HOME = "~/.local/share"
+XDG_STATE_HOME = "~/.local/state"
+XDG_CACHE_HOME = "~/.cache"
 
-BIN_HOME = "$HOME/.local/bin"
+BIN_HOME = "~/.local/bin"
 
 # Rust
 CARGO_HOME = "$XDG_DATA_HOME/cargo"
