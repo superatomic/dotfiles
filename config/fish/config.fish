@@ -1,4 +1,4 @@
-~/.local/share/cargo/bin/xshe fish | source
+/usr/local/bin/xshe fish | source
 
 if status is-interactive
     set -x fish_greeting  # Set value to suppress message

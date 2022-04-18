@@ -7,6 +7,7 @@ tap "homebrew/core"
 
 # Third-Party Taps
 tap "heroku/brew"
+tap "superatomic/xshe"
 
 
 # Programming Languages
@@ -22,6 +23,7 @@ brew "fish"
 brew "fisher"
 
 # Command Line Tools
+brew "xshe"
 brew "bat"
 brew "exa"
 brew "micro"
