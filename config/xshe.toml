@@ -17,7 +17,18 @@ BIN_HOME = "~/.local/bin"
 CARGO_HOME = "$XDG_DATA_HOME/cargo"
 RUSTUP_HOME = "$XDG_DATA_HOME/rustup"
 
-PATH = ["$PATH", "$BIN_HOME", "$BIN_HOME/iterm2", "$CARGO_HOME/bin"]
+PATH = ["$CARGO_HOME/bin", "$BIN_HOME", "$BIN_HOME/iterm2", "$PATH"]
+
+# https://unix.stackexchange.com/questions/145250/where-is-bashs-history-stored
+HISTFILE.bash = "$XDG_STATE_HOME/bash_history"
+HISTFILE.zsh = "$XDG_STATE_HOME/zsh_history"
+
+# Zsh
+ZDOTDIR.zsh = "$XDG_CONFIG_HOME/zsh"
+ZSH_COMPDUMP.zsh = "$XDG_CACHE_HOME/zsh/zcompdump"
+ZSH_CACHE_DIR.zsh = "$XDG_CACHE_HOME/oh-my-zsh"
+
+ZSH.zsh = "$XDG_DATA_HOME/oh-my-zsh"  # Path to oh-my-zsh installation.
 
 # Homebrew
 HOMEBREW_BUNDLE_FILE = "$DOTFILE_DIR/brew/Brewfile"
@@ -31,7 +42,7 @@ HOMEBREW_BUNDLE_NO_LOCK = "1"
 DISABLE_AUTO_TITLE="true"
 
 # https://superuser.com/questions/82123/
-__CF_USER_TEXT_ENCODING = "'0x0:0:0'"
+__CF_USER_TEXT_ENCODING = "0x0:0:0"
 
 # Python
 PYTHONSTARTUP = "$XDG_CONFIG_HOME/pythonrc.py"
@@ -43,7 +54,7 @@ PLATFORMIO_CORE_DIR = "$XDG_DATA_HOME/platformio"  # It's kind of a cache, but i
 # $M2_HOME
 
 # Editor
-EDITOR="$(which micro)"
+EDITOR = "$(which micro)"
 
 # Less
 LESSHISTFILE = "$XDG_STATE_HOME/lesshst"
@@ -62,16 +73,3 @@ BRIGHT = "$(tput bold)"
 UNDERLINE = "$(tput smul)"
 REVERSE = "$(tput smso)"
 NORMAL = "$(tput sgr0)"
-
-[shell.bash]
-# https://unix.stackexchange.com/questions/145250/where-is-bashs-history-stored
-HISTFILE = "$XDG_STATE_HOME/bash_history"
-
-[shell.zsh]
-ZDOTDIR = "$XDG_CONFIG_HOME/zsh"
-HISTFILE = "$XDG_STATE_HOME/zsh_history"
-ZSH_COMPDUMP = "$XDG_CACHE_HOME/zsh/zcompdump"
-ZSH_CACHE_DIR = "$XDG_CACHE_HOME/oh-my-zsh"
-
-# Path to oh-my-zsh installation.
-ZSH = "$XDG_DATA_HOME/oh-my-zsh"
