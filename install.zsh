@@ -9,6 +9,8 @@ if [[ $(uname) == "Darwin" ]]; then
 fi
 ~/.dotfiles/fish/install.fish
 
+type rustup || peval "curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh"
+
 printmsg success 'Finished dotfile installation!'
 
 source peval "source \"\$ZDOTDIR/.zshrc\""

@@ -12,7 +12,6 @@ tap "heroku/brew"
 # Programming Languages
 brew "python@3.8"
 brew "python@3.10"
-brew "rust"
 brew "ruby"
 
 # Shell
