@@ -41,6 +41,7 @@ brew "heroku/brew/heroku"
 
 # Other brews
 brew "gnupg"
+brew "pinentry-mac"
 brew "openssl@3"
 brew "portaudio"
 brew "pv"
