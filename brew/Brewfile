@@ -1,4 +1,3 @@
-
 # Core Taps
 tap "homebrew/bundle"
 tap "homebrew/cask"
