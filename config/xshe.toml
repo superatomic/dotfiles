@@ -17,7 +17,10 @@ BIN_HOME = "~/.local/bin"
 CARGO_HOME = "$XDG_DATA_HOME/cargo"
 RUSTUP_HOME = "$XDG_DATA_HOME/rustup"
 
-PATH = ["$CARGO_HOME/bin", "$BIN_HOME", "$BIN_HOME/iterm2", "$PATH"]
+PATH = ["$CARGO_HOME/bin", "~/Library/Application Support/Coursier/bin",
+    "$BIN_HOME", "$BIN_HOME/iterm2",
+    "$PATH",
+]
 
 # https://unix.stackexchange.com/questions/145250/where-is-bashs-history-stored
 HISTFILE.bash = "$XDG_STATE_HOME/bash_history"

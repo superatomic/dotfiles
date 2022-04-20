@@ -13,6 +13,7 @@ tap "superatomic/xshe"
 brew "python@3.8"
 brew "python@3.10"
 brew "ruby"
+brew "coursier/formulas/coursier"
 
 # Shell
 brew "starship"
