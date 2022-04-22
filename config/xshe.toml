@@ -33,6 +33,9 @@ ZSH_CACHE_DIR.zsh = "$XDG_CACHE_HOME/oh-my-zsh"
 
 ZSH.zsh = "$XDG_DATA_HOME/oh-my-zsh"  # Path to oh-my-zsh installation.
 
+# Fish
+fish_greeting.fish = ""
+
 # Homebrew
 HOMEBREW_BUNDLE_FILE = "$DOTFILE_DIR/brew/Brewfile"
 HOMEBREW_BAT = "1"
