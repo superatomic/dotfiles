@@ -1,4 +1,4 @@
-/usr/local/bin/xshe fish | source
+/usr/bin/env xshe fish | source
 
 if status is-interactive
     thefuck --alias | source

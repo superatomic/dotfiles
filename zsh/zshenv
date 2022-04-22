@@ -1,3 +1,3 @@
 # Brew env must come first!
 eval "$(/usr/local/bin/brew shellenv)"
-eval "$(/usr/local/bin/xshe zsh)"
+eval "$(/usr/bin/env xshe zsh)"

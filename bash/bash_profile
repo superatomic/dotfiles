@@ -1,2 +1,2 @@
-eval "$(/usr/local/bin/xshe bash)"
+eval "$(/usr/bin/env xshe bash)"
 source "$XDG_DATA_HOME"/iterm2_shell_integration.bash
