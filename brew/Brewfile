@@ -64,12 +64,12 @@ cask "balenaetcher"
 cask "iterm2"
 
 cask "jetbrains-toolbox"
-cask "vscodium"
+cask "vscodium", args: { no_quarantine: true }
 
 cask "gimp"
 cask "krita"
 
-cask "librewolf"
+cask "librewolf", args: { no_quarantine: true }
 cask "element"
 
 cask "obsidian"
