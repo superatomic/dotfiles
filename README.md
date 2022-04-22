@@ -40,13 +40,25 @@ My personal dotfiles.
 │   └── install.zsh
 ├── config
 │   ├── fish
-│   │   └── config.fish
+│   │   ├── config.fish
+│   │   └── functions
+│   │       ├── cat.fish
+│   │       ├── coffee.fish
+│   │       ├── edit.fish
+│   │       ├── ls.fish
+│   │       ├── pip.fish
+│   │       ├── python.fish
+│   │       ├── python2.fish
+│   │       ├── python3.fish
+│   │       └── slink.fish
+│   ├── gitignore
 │   ├── micro
 │   │   └── settings.json
 │   ├── neofetch
 │   │   └── config.conf
 │   ├── pythonrc.py
-│   └── starship.toml
+│   ├── starship.toml
+│   └── xshe.toml
 ├── fish
 │   ├── fisher.fish
 │   └── install.fish
@@ -61,6 +73,6 @@ My personal dotfiles.
     ├── zshenv
     └── zshrc
 
-10 directories, 25 files
+11 directories, 36 files
 ```
 
