@@ -17,13 +17,13 @@ brew "coursier/formulas/coursier"
 
 # Shell
 brew "starship"
+brew "xshe"
 brew "zsh"
 brew "zsh-syntax-highlighting"
 brew "fish"
 brew "fisher"
 
 # Command Line Tools
-brew "xshe"
 brew "bat"
 brew "exa"
 brew "micro"
