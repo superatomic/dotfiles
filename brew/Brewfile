@@ -5,6 +5,7 @@ tap "homebrew/cask-fonts"
 tap "homebrew/core"
 
 # Third-Party Taps
+tap "coursier/formulas"
 tap "heroku/brew"
 tap "superatomic/xshe"
 
