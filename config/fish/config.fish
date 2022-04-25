@@ -1,4 +1,5 @@
 /usr/bin/env xshe fish | source
+/usr/local/bin/brew shellenv fish | source
 
 if status is-interactive
     thefuck --alias | source
