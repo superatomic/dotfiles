@@ -22,4 +22,5 @@ else
   exit 1
 fi
 
-printf "%s%s%s\n" "$color" "$2" "$NORMAL"
+# shellcheck disable=SC2145  # yeah, this is a wierd case, but this is actually a good use for this behavior.
+echo "$color${@:2}$NORMAL"
