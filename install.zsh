@@ -13,7 +13,7 @@ type rustup || peval "curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs 
 
 printmsg success 'Finished dotfile installation!'
 
-source peval "source \"\$ZDOTDIR/.zshrc\""
+source peval source "\$ZDOTDIR/.zshrc"
 
 peval neofetch
 printmsg success 'Done!'

@@ -13,9 +13,9 @@ printmsg action "Setting up homebrew..."
 
 brew developer off
 
-peval "brew bundle --no-lock --cleanup install"
-peval "brew upgrade"
-peval "brew cleanup"
+peval brew bundle install --no-lock --cleanup
+peval brew upgrade
+peval brew cleanup
 
-peval "brew info"
-peval "brew doctor"
+peval brew info
+peval brew doctor
