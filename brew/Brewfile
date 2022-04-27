@@ -39,6 +39,7 @@ brew "cmatrix"
 brew "httpie"
 brew "yt-dlp"
 brew "neofetch"
+brew "pup"
 brew "heroku/brew/heroku"
 
 # Other brews
