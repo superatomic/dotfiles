@@ -74,6 +74,7 @@ cask "jetbrains-toolbox"
 cask "vscodium", args: { no_quarantine: true }
 
 cask "gimp"
+cask "inkscape"
 cask "krita"
 
 cask "librewolf", args: { no_quarantine: true }
