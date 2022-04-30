@@ -68,7 +68,7 @@ cask "qlmarkdown", args: { no_quarantine: true, require_sha: true, appdir: "/App
 cask "syntax-highlight", args: { no_quarantine: true, require_sha: true, appdir: "/Applications/Utilities/" }
 
 # Applications
-cask "eul"
+cask "eul", args: { appdir: "/Applications/Utilities/" }
 cask "iina"
 cask "balenaetcher"
 cask "iterm2"
