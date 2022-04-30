@@ -24,6 +24,7 @@ brew "zsh"
 brew "zsh-syntax-highlighting"
 brew "fish"
 brew "fisher"
+brew "elvish"
 
 # Command Line Tools
 brew "bat"
