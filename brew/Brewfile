@@ -43,6 +43,7 @@ brew "httpie"
 brew "yt-dlp"
 brew "neofetch"
 brew "pup"
+brew "jq"
 brew "heroku/brew/heroku"
 
 # Other brews
