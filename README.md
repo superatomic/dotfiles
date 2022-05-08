@@ -40,6 +40,8 @@ My personal dotfiles.
 │   └── install.zsh
 ├── config
 │   ├── fish
+│   │   ├── conf.d
+│   │   │   └── abbrs.fish
 │   │   ├── config.fish
 │   │   └── functions
 │   │       ├── cat.fish
@@ -73,6 +75,6 @@ My personal dotfiles.
     ├── zshenv
     └── zshrc
 
-11 directories, 36 files
+12 directories, 37 files
 ```
 
