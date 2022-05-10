@@ -14,9 +14,9 @@ My personal dotfiles.
    ```zsh
    git clone https://github.com/superatomic/dotfiles.git ~/.dotfiles
    ```
-3. Source the install script:
+3. Run the install script:
    ```zsh
-   source ~/.dotfiles/install.zsh
+   .dotfiles/install.zsh
    ```
    *If you are using these dotfiles as a template,
    make sure to make your own modifications before sourcing the install script.*
