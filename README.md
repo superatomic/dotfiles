@@ -45,6 +45,7 @@ My personal dotfiles.
 │   │   ├── config.fish
 │   │   └── functions
 │   │       ├── cat.fish
+│   │       ├── code.fish
 │   │       ├── coffee.fish
 │   │       ├── edit.fish
 │   │       ├── ls.fish
@@ -75,6 +76,6 @@ My personal dotfiles.
     ├── zshenv
     └── zshrc
 
-12 directories, 37 files
+12 directories, 38 files
 ```
 
