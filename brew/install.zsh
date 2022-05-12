@@ -19,3 +19,5 @@ peval brew cleanup
 
 peval brew info
 peval brew doctor
+
+peval xattr -d com.apple.quarantine "{/Applications,/Applications/Utilities}/*.app" &>/dev/null
