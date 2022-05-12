@@ -89,5 +89,6 @@ cask "element"
 cask "obsidian"
 cask "typora"
 cask "textmate"
+cask "noto"
 
 cask "godot"
