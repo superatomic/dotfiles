@@ -64,6 +64,8 @@ cask "font-jetbrains-mono"
 cask "font-jetbrains-mono-nerd-font"
 cask "font-hack-nerd-font"
 
+cask "font-noto-emoji"
+
 # QuickLook
 cask "qlmarkdown", args: { no_quarantine: true, require_sha: true, appdir: "/Applications/Utilities/" }
 cask "syntax-highlight", args: { no_quarantine: true, require_sha: true, appdir: "/Applications/Utilities/" }
