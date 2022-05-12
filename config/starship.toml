@@ -39,6 +39,9 @@ signal_symbol = "⚡"
 pipestatus = true
 map_symbol = true
 
+[ruby]
+symbol = " "
+
 # The following is pasted from https://starship.rs/presets/nerd-font.html
 
 [aws]
