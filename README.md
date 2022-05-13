@@ -53,7 +53,9 @@ My personal dotfiles.
 │   │       ├── python.fish
 │   │       ├── python2.fish
 │   │       ├── python3.fish
-│   │       └── slink.fish
+│   │       ├── rm.fish
+│   │       ├── slink.fish
+│   │       └── unlink.fish
 │   ├── gitignore
 │   ├── micro
 │   │   └── settings.json
@@ -76,6 +78,6 @@ My personal dotfiles.
     ├── zshenv
     └── zshrc
 
-12 directories, 38 files
+12 directories, 40 files
 ```
 
