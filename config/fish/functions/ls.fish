@@ -1,3 +1,3 @@
-function ls --wraps='exa --classify' --description 'alias ls exa --classify'
-  exa --classify $argv; 
+function ls --wraps='exa --classify --git' --description 'alias ls exa --classify --git'
+  exa --classify --git $argv; 
 end
