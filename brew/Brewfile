@@ -8,11 +8,13 @@ tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 tap "homebrew/core"
 
+# Command Extension Taps
+tap "superatomic/bundle-extensions"
+
 # Third-Party Taps
 tap "coursier/formulas"
 tap "heroku/brew"
 tap "superatomic/xshe"
-tap "superatomic/bundle-extensions"
 
 ##==================##
 ##     Formulae     ##
