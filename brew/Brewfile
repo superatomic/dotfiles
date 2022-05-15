@@ -27,14 +27,17 @@ brew "ruby"
 brew "coursier/formulas/coursier"
 brew "vlang"
 
-# Shell
+# Shells
+brew "zsh"
+brew "fish"
+brew "elvish"
+
+# Shell Additions
 brew "starship"
 brew "xshe"
-brew "zsh"
 brew "zsh-syntax-highlighting"
-brew "fish"
 brew "fisher"
-brew "elvish"
+brew "thefuck"
 
 # Command Line Tools
 brew "bat"
@@ -56,7 +59,7 @@ brew "pup"
 brew "jq"
 brew "heroku/brew/heroku"
 
-# Other brews
+# Other Brews
 brew "gnupg"
 brew "pinentry-mac"
 brew "openssl@3"
@@ -65,45 +68,48 @@ brew "pv"
 brew "sox"
 brew "sphinx-doc"
 brew "swig"
-brew "thefuck"
 
 ##==================##
 ##    Brew Casks    ##
 ##==================##
 
-# Fonts
+# Monospace Fonts
 cask "font-fira-code"
 cask "font-fira-code-nerd-font"
 cask "font-jetbrains-mono"
 cask "font-jetbrains-mono-nerd-font"
 cask "font-hack-nerd-font"
 
+# Character Fonts
 cask "font-noto-emoji"
 
-# QuickLook
+# QuickLook Extensions
 cask "qlmarkdown", args: { no_quarantine: true, require_sha: true, appdir: "/Applications/Utilities/" }
 cask "syntax-highlight", args: { no_quarantine: true, require_sha: true, appdir: "/Applications/Utilities/" }
 
-# Applications
+# Utilities
+cask "iterm2"
 cask "eul", args: { appdir: "/Applications/Utilities/" }
 cask "iina"
 cask "balenaetcher"
-cask "iterm2"
 cask "cakebrew"
 
-cask "jetbrains-toolbox"
-cask "vscodium", args: { no_quarantine: true }
-
+# Image Manipulators
 cask "gimp"
 cask "inkscape"
 cask "krita"
 
-cask "librewolf", args: { no_quarantine: true }
-cask "element"
+# Code Editors
+cask "jetbrains-toolbox"
+cask "vscodium", args: { no_quarantine: true }
 
+# Text Processing
 cask "obsidian"
 cask "typora"
 cask "textmate"
 cask "noto"
 
+# Other Applications
+cask "librewolf", args: { no_quarantine: true }
+cask "element"
 cask "godot"
