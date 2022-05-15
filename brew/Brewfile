@@ -101,7 +101,7 @@ cask "krita"
 
 # Code Editors
 cask "jetbrains-toolbox"
-cask "vscodium", args: { no_quarantine: true }
+cask "vscodium", args: { no_quarantine: true, require_sha: true }
 
 # Text Processing
 cask "obsidian"
@@ -110,6 +110,6 @@ cask "textmate"
 cask "noto"
 
 # Other Applications
-cask "librewolf", args: { no_quarantine: true }
+cask "librewolf", args: { no_quarantine: true, require_sha: true }
 cask "element"
 cask "godot"
