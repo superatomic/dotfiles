@@ -76,6 +76,7 @@ cask "eul", args: { appdir: "/Applications/Utilities/" }
 cask "iina"
 cask "balenaetcher"
 cask "iterm2"
+cask "cakebrew"
 
 cask "jetbrains-toolbox"
 cask "vscodium", args: { no_quarantine: true }
