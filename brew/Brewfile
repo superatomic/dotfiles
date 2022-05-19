@@ -95,6 +95,7 @@ cask "eul", args: { appdir: "/Applications/Utilities/" }
 cask "iina"
 cask "balenaetcher"
 cask "cakebrew"
+cask "latest"
 
 # Image Manipulators
 cask "gimp"
