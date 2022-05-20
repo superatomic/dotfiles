@@ -3,4 +3,6 @@ if status is-interactive
     abbr -a ll "ls -l"
     abbr -a lal "ls -al"
     abbr -a lla "ls -la"
+
+    abbr -a coffee "caffeinate"
 end
