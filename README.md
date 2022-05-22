@@ -30,7 +30,7 @@ My personal dotfiles.
 ├── bash
 │   └── bash_profile
 ├── bin
-│   ├── dotfiles.zsh
+│   ├── dot.zsh
 │   ├── peval.zsh
 │   ├── printmsg.zsh
 │   ├── pyproj.zsh
@@ -77,6 +77,6 @@ My personal dotfiles.
     ├── zshenv
     └── zshrc
 
-12 directories, 40 files
+12 directories, 39 files
 ```
 
