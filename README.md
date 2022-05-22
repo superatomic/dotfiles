@@ -46,7 +46,6 @@ My personal dotfiles.
 │   │   └── functions
 │   │       ├── cat.fish
 │   │       ├── code.fish
-│   │       ├── coffee.fish
 │   │       ├── edit.fish
 │   │       ├── ls.fish
 │   │       ├── pip.fish
