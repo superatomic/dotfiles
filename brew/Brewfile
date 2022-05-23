@@ -3,10 +3,10 @@
 ##==================##
 
 # Core Taps
-tap "homebrew/bundle"
+tap "homebrew/core"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
-tap "homebrew/core"
+tap "homebrew/bundle"
 
 # Command Extension Taps
 tap "superatomic/bundle-extensions"
