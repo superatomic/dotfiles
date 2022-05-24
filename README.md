@@ -1,20 +1,19 @@
 # **@superatomic**'s Dotfiles
-My personal dotfiles.
+My personal dotfiles for macOS and Linux. Uses [homebrew], bash, zsh, and [xshe].
+
+[homebrew]: https://brew.sh
+[xshe]: https://xshe.superatomic.dev
 
 | :exclamation: | **These dotfiles are not complete yet!** |
 |---------------|:-----------------------------------------|
 
 ## Installation
 
-1. Change the current shell to `zsh`:
-   ```sh
-   chsh -s /bin/zsh
-   ```
-2. Copy the dotfiles directory to `~/.dotfiles`:
+1. Copy the dotfiles directory to `~/.dotfiles`:
    ```zsh
    git clone https://github.com/superatomic/dotfiles.git ~/.dotfiles
    ```
-3. Run the install script:
+2. Run the install script:
    ```zsh
    ~/.dotfiles/install.zsh
    ```
