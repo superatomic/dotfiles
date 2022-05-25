@@ -79,3 +79,6 @@ My personal dotfiles for macOS and Linux. Uses [homebrew], bash, zsh, and [xshe]
 12 directories, 39 files
 ```
 
+## License
+
+All files are licensed under the [MIT License](LICENSE).
