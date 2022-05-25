@@ -75,7 +75,6 @@ brew "portaudio"
 brew "pv"
 brew "sox"
 brew "sphinx-doc"
-brew "swig"
 
 ##==================##
 ##    Brew Casks    ##
