@@ -58,13 +58,6 @@ brew "poetry"
 brew "ptpython"
 brew "neofetch"
 brew "cmatrix"
-brew "httpie"
-brew "yt-dlp"
-brew "neofetch"
-brew "pup"
-brew "jq"
-brew "trash" # Note: macOS only!
-brew "heroku/brew/heroku"
 
 # Other Brews
 brew "gnupg"
