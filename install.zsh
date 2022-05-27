@@ -9,7 +9,9 @@ if [[ $(uname) == "Darwin" ]]; then
 fi
 ~/.dotfiles/fish/install.fish
 
-type rustup || peval "curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh"
+if ! type rustup >/dev/null; then
+  peval "curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh"
+fi
 
 printmsg success 'Finished dotfile installation!'
 
