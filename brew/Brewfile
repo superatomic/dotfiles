@@ -27,6 +27,7 @@ brew "ruby"
 brew "coursier/formulas/coursier"
 
 # Shells
+brew "bash"
 brew "zsh"
 brew "fish"
 brew "elvish"
