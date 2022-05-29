@@ -71,9 +71,6 @@ PYTHONSTARTUP = "$XDG_CONFIG_HOME/pythonrc.py"
 # Platform IO
 PLATFORMIO_CORE_DIR = "$XDG_DATA_HOME/platformio"  # It's kind of a cache, but it's also other stuff.
 
-# Maven
-# $M2_HOME
-
 # Editor
 EDITOR = "$(which micro)"
 
