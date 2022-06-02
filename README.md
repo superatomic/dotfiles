@@ -39,11 +39,14 @@ My personal dotfiles for macOS and Linux. Uses [homebrew], bash, zsh, and [xshe]
 │   └── install.zsh
 ├── config
 │   ├── fish
+│   │   ├── completions
+│   │   │   └── ccd.fish
 │   │   ├── conf.d
 │   │   │   └── abbrs.fish
 │   │   ├── config.fish
 │   │   └── functions
 │   │       ├── cat.fish
+│   │       ├── ccd.fish
 │   │       ├── code.fish
 │   │       ├── edit.fish
 │   │       ├── ls.fish
@@ -76,7 +79,7 @@ My personal dotfiles for macOS and Linux. Uses [homebrew], bash, zsh, and [xshe]
     ├── zshenv
     └── zshrc
 
-12 directories, 39 files
+13 directories, 41 files
 ```
 
 ## License
