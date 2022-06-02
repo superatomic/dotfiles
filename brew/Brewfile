@@ -116,5 +116,6 @@ cask "noto"
 
 # Other Applications
 cask "librewolf", args: { no_quarantine: true, require_sha: true }
+cask "lagrange"
 cask "element"
 cask "godot"
