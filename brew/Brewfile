@@ -46,6 +46,7 @@ brew "exa"
 brew "micro"
 brew "ffmpeg"
 brew "imagemagick"
+brew "usbutils"
 brew "rm-improved"
 brew "trash" # Note: macOS only!
 brew "pup"
