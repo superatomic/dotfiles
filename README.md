@@ -64,20 +64,20 @@ My personal dotfiles for macOS and Linux. Uses [homebrew], bash, zsh, and [xshe]
 │   │   └── config.conf
 │   ├── pythonrc.py
 │   ├── starship.toml
-│   └── xshe.toml
+│   ├── xshe.toml
+│   └── zsh
+│       ├── alias.zsh
+│       ├── functions.zsh
+│       ├── sources.zsh
+│       ├── zshenv
+│       └── zshrc
 ├── fish
 │   ├── fisher.fish
 │   └── install.fish
 ├── install.zsh
 ├── symlink.zsh
-├── macos
-│   └── install.zsh
-└── zsh
-    ├── alias.zsh
-    ├── functions.zsh
-    ├── sources.zsh
-    ├── zshenv
-    └── zshrc
+└── macos
+    └── install.zsh
 
 13 directories, 41 files
 ```

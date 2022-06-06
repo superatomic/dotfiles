@@ -8,9 +8,6 @@ printmsg action "Symlinking files..."
 
 sln ~/.dotfiles/zsh/zshenv ~/.zshenv
 mkdir -p "$ZDOTDIR"
-for file in ~/.dotfiles/zsh/*; do
-  sln "$file" "$ZDOTDIR/$file:t";
-done
 sln "$ZDOTDIR/zshrc" "$ZDOTDIR/.zshrc"
 
 sln ~/.dotfiles/bash/bash_profile ~/.bash_profile
