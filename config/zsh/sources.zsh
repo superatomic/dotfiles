@@ -1,3 +1,4 @@
+source "$ZDOTDIR"/zshenv
 
 source "$XDG_DATA_HOME"/iterm2_shell_integration.zsh
 

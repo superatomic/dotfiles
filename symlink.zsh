@@ -6,8 +6,8 @@ alias printmsg=~/.dotfiles/bin/printmsg.zsh
 
 printmsg action "Symlinking files..."
 
-sln ~/.dotfiles/zsh/zshenv ~/.zshenv
 mkdir -p "$ZDOTDIR"
+sln "$ZDOTDIR/zshenv" "$ZDOTDIR/.zshenv"
 sln "$ZDOTDIR/zshrc" "$ZDOTDIR/.zshrc"
 
 sln ~/.dotfiles/bash/bash_profile ~/.bash_profile
