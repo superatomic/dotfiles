@@ -1,6 +1,6 @@
 #!/usr/local/bin/zsh
 
-source ~/.dotfiles/zsh/zshenv
+source ~/.dotfiles/config/zsh/zshenv
 
 ~/.dotfiles/symlink.zsh
 
