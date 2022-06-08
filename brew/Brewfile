@@ -95,6 +95,7 @@ cask "syntax-highlight", args: { no_quarantine: true, require_sha: true, appdir:
 # Utilities
 cask "iterm2"
 cask "eul", args: { appdir: "/Applications/Utilities/" }
+cask "tomatobar", args: { appdir: "/Applications/Utilities/" }
 cask "iina"
 cask "balenaetcher"
 cask "cakebrew"
