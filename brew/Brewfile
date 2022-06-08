@@ -41,6 +41,7 @@ brew "fisher"
 brew "thefuck"
 
 # Command Line Tools
+brew "moreutils"
 brew "bat"
 brew "exa"
 brew "micro"
