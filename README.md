@@ -9,16 +9,14 @@ My personal dotfiles for macOS and Linux. Uses [homebrew], bash, zsh, and [xshe]
 
 ## Installation
 
-1. Copy the dotfiles directory to `~/.dotfiles`:
-   ```zsh
-   git clone https://github.com/superatomic/dotfiles.git ~/.dotfiles
-   ```
-2. Run the install script:
-   ```zsh
-   ~/.dotfiles/install.zsh
-   ```
-   *If you are using these dotfiles as a template,
-   make sure to make your own modifications before sourcing the install script.*
+Simply run:
+
+```sh
+curl -fsSL https://dotfiles.superatomic.dev | bash
+```
+
+*If you are using these dotfiles as a template,
+make sure to make your own modifications before sourcing the install script.*
 
 
 ## Dotfiles Structure
