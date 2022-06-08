@@ -22,9 +22,11 @@ VCACHE = "$XDG_CACHE_HOME/vmodules"
 
 PATH = [
     # Development tools
+    "/usr/local/opt/python@3.10/bin",
+    "$(brew --prefix)/bin",
+    "$(brew --prefix)/sbin",
 	"$CARGO_HOME/bin",
-	"~/Library/Application Support/Coursier/bin",
-	"/usr/local/opt/python@3.10/bin",
+    "~/Library/Application Support/Coursier/bin",
 
     # Local bin
     "$BIN_HOME",
@@ -48,6 +50,10 @@ ZSH.zsh = "$XDG_DATA_HOME/oh-my-zsh"  # Path to oh-my-zsh installation.
 fish_greeting.fish = ""
 
 # Homebrew
+HOMEBREW_PREFIX = "$(brew --prefix)"
+HOMEBREW_CELLAR = "$(brew --cellar)"
+HOMEBREW_REPOSITORY = "$(brew --repo)"
+
 HOMEBREW_BUNDLE_FILE = "$DOTFILE_DIR/brew/Brewfile"
 HOMEBREW_BAT = "1"
 HOMEBREW_NO_INSTALL_CLEANUP = "0"
