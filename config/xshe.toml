@@ -17,6 +17,9 @@ BIN_HOME = "~/.local/bin"
 CARGO_HOME = "$XDG_DATA_HOME/cargo"
 RUSTUP_HOME = "$XDG_DATA_HOME/rustup"
 
+# Eget
+EGET_BIN = "$BIN_HOME/eget"
+
 # V
 VCACHE = "$XDG_CACHE_HOME/vmodules"
 
@@ -25,6 +28,8 @@ PATH = [
     "/usr/local/opt/python@3.10/bin",
     "$(brew --prefix)/bin",
     "$(brew --prefix)/sbin",
+    "$EGET_BIN",
+    
 	"$CARGO_HOME/bin",
     "~/Library/Application Support/Coursier/bin",
 
