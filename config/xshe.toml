@@ -96,6 +96,9 @@ EDITOR = "$(which micro)"
 # Less
 LESSHISTFILE = "$XDG_STATE_HOME/lesshst"
 
+# rip (rm-improved)
+GRAVEYARD = "$XDG_DATA_HOME/graveyard"
+
 # Make more things follow the XDG Standard
 # Thanks to https://github.com/b3nj5m1n/xdg-ninja for providing hints for what to do!
 ANDROID_HOME = "$XDG_DATA_HOME/android"
