@@ -10,6 +10,7 @@ tap "homebrew/bundle"
 
 # Command Extension Taps
 tap "superatomic/bundle-extensions"
+tap "homebrew/command-not-found"
 
 # Third-Party Taps
 tap "coursier/formulas"
