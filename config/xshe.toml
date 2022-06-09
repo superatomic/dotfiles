@@ -29,14 +29,14 @@ PATH = [
     "$(brew --prefix)/bin",
     "$(brew --prefix)/sbin",
     "$EGET_BIN",
-    
+
 	"$CARGO_HOME/bin",
     "~/Library/Application Support/Coursier/bin",
 
     # Local bin
     "$BIN_HOME",
     "$BIN_HOME/iterm2",
-    
+
     "$PATH",
 ]
 
