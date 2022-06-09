@@ -26,10 +26,13 @@ VCACHE = "$XDG_CACHE_HOME/vmodules"
 PATH = [
     # Development tools
     "/usr/local/opt/python@3.10/bin",
+
+    # Homebrew
     "$(brew --prefix)/bin",
     "$(brew --prefix)/sbin",
-    "$EGET_BIN",
 
+    # Other executable locations
+    "$EGET_BIN",
 	"$CARGO_HOME/bin",
     "~/Library/Application Support/Coursier/bin",
 
