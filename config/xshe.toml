@@ -77,6 +77,10 @@ TEALDEER_CONFIG_DIR = "$XDG_CONFIG_HOME/tealdeer"
 TEALDEER_CACHE_DIR = "$XDG_CACHE_HOME/tealdeer"
 CUSTOM_PAGES_DIR = "$XDG_DATA_HOME/tealdeer/pages"
 
+# nb (https://github.com/xwmx/nb)
+NB_DIR = "$XDG_DATA_HOME/nb"
+NBRC_PATH = "$XDG_CONFIG_HOME/nb"
+
 # GnuPG
 GNUPGHOME = "$XDG_DATA_HOME/gnupg"
 GPG_TTY = "$(tty)"
