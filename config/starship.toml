@@ -30,11 +30,12 @@ python_binary = ["python3"]  # Ignore python 2
 
 [status]
 disabled = false
-format = " [$maybe_int $symbol$common_meaning$signal_name]($style) "
+format = " [$symbol](bold yellow)[$maybe_int$signal_name$common_meaning ]($style)"
 success_symbol = ""
-not_executable_symbol = ""
-not_found_symbol = ""
-sigint_symbol = ""
+symbol = "✖ "
+not_executable_symbol = " "
+not_found_symbol = " "
+sigint_symbol = " "
 signal_symbol = "⚡"
 pipestatus = true
 map_symbol = true
