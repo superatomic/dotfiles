@@ -19,6 +19,8 @@ fi
 
 if ! type rustup >/dev/null; then
   peval "curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh"
+else
+  rustup update
 fi
 
 ~/.dotfiles/fish/install.fish
