@@ -26,13 +26,25 @@ EGET_BIN = "$BIN_HOME/eget"
 # V
 VCACHE = "$XDG_CACHE_HOME/vmodules"
 
+# Homebrew
+HOMEBREW_PREFIX = "$(brew --prefix)"
+HOMEBREW_CELLAR = "$(brew --cellar)"
+HOMEBREW_REPOSITORY = "$(brew --repo)"
+
+HOMEBREW_BUNDLE_FILE = "$DOTFILE_DIR/brew/Brewfile"
+HOMEBREW_BAT = true
+HOMEBREW_NO_INSTALL_CLEANUP = "0"
+HOMEBREW_INSTALL_BADGE = "▶︎"
+HOMEBREW_NO_ANALYTICS = true
+HOMEBREW_BUNDLE_NO_LOCK = true
+
 PATH = [
     # Development tools
     "/usr/local/opt/python@3.10/bin",
 
     # Homebrew
-    "$(brew --prefix)/bin",
-    "$(brew --prefix)/sbin",
+    "$HOMEBREW_PREFIX/bin",
+    "$HOMEBREW_PREFIX/sbin",
 
     # Other executable locations
     "$EGET_BIN",
@@ -59,18 +71,6 @@ ZSH.zsh = "$XDG_DATA_HOME/oh-my-zsh"  # Path to oh-my-zsh installation.
 
 # Fish
 fish_greeting.fish = ""
-
-# Homebrew
-HOMEBREW_PREFIX = "$(brew --prefix)"
-HOMEBREW_CELLAR = "$(brew --cellar)"
-HOMEBREW_REPOSITORY = "$(brew --repo)"
-
-HOMEBREW_BUNDLE_FILE = "$DOTFILE_DIR/brew/Brewfile"
-HOMEBREW_BAT = true
-HOMEBREW_NO_INSTALL_CLEANUP = "0"
-HOMEBREW_INSTALL_BADGE = "▶︎"
-HOMEBREW_NO_ANALYTICS = true
-HOMEBREW_BUNDLE_NO_LOCK = true
 
 # Tealdeer
 TEALDEER_CONFIG_DIR = "$XDG_CONFIG_HOME/tealdeer"
