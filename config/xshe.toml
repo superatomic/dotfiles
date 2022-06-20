@@ -3,132 +3,132 @@
 #            https://github.com/superatomic/xshe            #
 #############################################################
 
-DOTFILE_DIR = "~/.dotfiles"
+DOTFILE_DIR = '~/.dotfiles'
 
 # https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html
-XDG_CONFIG_HOME = "~/.config"
-XDG_DATA_HOME = "~/.local/share"
-XDG_STATE_HOME = "~/.local/state"
-XDG_CACHE_HOME = "~/.cache"
+XDG_CONFIG_HOME = '~/.config'
+XDG_DATA_HOME = '~/.local/share'
+XDG_STATE_HOME = '~/.local/state'
+XDG_CACHE_HOME = '~/.cache'
 
-BIN_HOME = "~/.local/bin"
+BIN_HOME = '~/.local/bin'
 
 # Pager
-PAGER = "$(which less)"
+PAGER = '$(which less)'
 
 # Editor
-EDITOR = "$(which micro)"
+EDITOR = '$(which micro)'
 
 # Homebrew
-HOMEBREW_PREFIX = "$(brew --prefix)"
-HOMEBREW_CELLAR = "$(brew --cellar)"
-HOMEBREW_REPOSITORY = "$(brew --repo)"
+HOMEBREW_PREFIX = '$(brew --prefix)'
+HOMEBREW_CELLAR = '$(brew --cellar)'
+HOMEBREW_REPOSITORY = '$(brew --repo)'
 
-HOMEBREW_BUNDLE_FILE = "$DOTFILE_DIR/brew/Brewfile"
+HOMEBREW_BUNDLE_FILE = '$DOTFILE_DIR/brew/Brewfile'
 HOMEBREW_BAT = true
-HOMEBREW_NO_INSTALL_CLEANUP = "0"
-HOMEBREW_INSTALL_BADGE = "▶︎"
+HOMEBREW_NO_INSTALL_CLEANUP = '0'
+HOMEBREW_INSTALL_BADGE = '▶︎'
 HOMEBREW_NO_ANALYTICS = true
 HOMEBREW_BUNDLE_NO_LOCK = true
 
 PATH = [
     # Development tools
-    "/usr/local/opt/python@3.10/bin",
+    '/usr/local/opt/python@3.10/bin',
 
     # Homebrew
-    "$HOMEBREW_PREFIX/bin",
-    "$HOMEBREW_PREFIX/sbin",
+    '$HOMEBREW_PREFIX/bin',
+    '$HOMEBREW_PREFIX/sbin',
 
     # Other executable locations
-    "$EGET_BIN",
-	"$CARGO_HOME/bin",
-    "~/Library/Application Support/Coursier/bin",
+    '$EGET_BIN',
+	'$CARGO_HOME/bin',
+    '~/Library/Application Support/Coursier/bin',
 
     # Local bin
-    "$BIN_HOME",
-    "$BIN_HOME/iterm2",
+    '$BIN_HOME',
+    '$BIN_HOME/iterm2',
 
-    "$PATH",
+    '$PATH',
 ]
 
 # Python
-PYTHONSTARTUP = "$XDG_CONFIG_HOME/pythonrc.py"
+PYTHONSTARTUP = '$XDG_CONFIG_HOME/pythonrc.py'
 
 # Ruby (suggested by https://github.com/b3nj5m1n/xdg-ninja)
-GEM_HOME = "$XDG_DATA_HOME/gem"
-GEM_SPEC_CACHE = "$XDG_CACHE_HOME/gem"
-BUNDLE_USER_CONFIG = "$XDG_CONFIG_HOME/bundle"
-BUNDLE_USER_CACHE = "$XDG_CACHE_HOME/bundle"
-BUNDLE_USER_PLUGIN = "$XDG_DATA_HOME/bundle"
+GEM_HOME = '$XDG_DATA_HOME/gem'
+GEM_SPEC_CACHE = '$XDG_CACHE_HOME/gem'
+BUNDLE_USER_CONFIG = '$XDG_CONFIG_HOME/bundle'
+BUNDLE_USER_CACHE = '$XDG_CACHE_HOME/bundle'
+BUNDLE_USER_PLUGIN = '$XDG_DATA_HOME/bundle'
 
 # Rust
-CARGO_HOME = "$XDG_DATA_HOME/cargo"
-RUSTUP_HOME = "$XDG_DATA_HOME/rustup"
+CARGO_HOME = '$XDG_DATA_HOME/cargo'
+RUSTUP_HOME = '$XDG_DATA_HOME/rustup'
 
 # V
-VCACHE = "$XDG_CACHE_HOME/vmodules"
+VCACHE = '$XDG_CACHE_HOME/vmodules'
 
 # https://unix.stackexchange.com/questions/145250/where-is-bashs-history-stored
-HISTFILE.bash = "$XDG_STATE_HOME/bash_history"
-HISTFILE.zsh = "$XDG_STATE_HOME/zsh_history"
+HISTFILE.bash = '$XDG_STATE_HOME/bash_history'
+HISTFILE.zsh = '$XDG_STATE_HOME/zsh_history'
 
 # Zsh
-ZDOTDIR.zsh = "$XDG_CONFIG_HOME/zsh"
-ZSH_COMPDUMP.zsh = "$XDG_CACHE_HOME/zsh/zcompdump"
-ZSH_CACHE_DIR.zsh = "$XDG_CACHE_HOME/oh-my-zsh"
+ZDOTDIR.zsh = '$XDG_CONFIG_HOME/zsh'
+ZSH_COMPDUMP.zsh = '$XDG_CACHE_HOME/zsh/zcompdump'
+ZSH_CACHE_DIR.zsh = '$XDG_CACHE_HOME/oh-my-zsh'
 
-ZSH.zsh = "$XDG_DATA_HOME/oh-my-zsh"  # Path to oh-my-zsh installation.
+ZSH.zsh = '$XDG_DATA_HOME/oh-my-zsh'  # Path to oh-my-zsh installation.
 
 # Fish
-fish_greeting.fish = ""
+fish_greeting.fish = ''
 
 # Eget
-EGET_BIN = "$BIN_HOME/eget"
+EGET_BIN = '$BIN_HOME/eget'
 
 # Tealdeer
-TEALDEER_CONFIG_DIR = "$XDG_CONFIG_HOME/tealdeer"
-TEALDEER_CACHE_DIR = "$XDG_CACHE_HOME/tealdeer"
-CUSTOM_PAGES_DIR = "$XDG_DATA_HOME/tealdeer/pages"
+TEALDEER_CONFIG_DIR = '$XDG_CONFIG_HOME/tealdeer'
+TEALDEER_CACHE_DIR = '$XDG_CACHE_HOME/tealdeer'
+CUSTOM_PAGES_DIR = '$XDG_DATA_HOME/tealdeer/pages'
 
 # nb (https://github.com/xwmx/nb)
-NB_DIR = "$XDG_DATA_HOME/nb"
-NBRC_PATH = "$XDG_CONFIG_HOME/nb"
+NB_DIR = '$XDG_DATA_HOME/nb'
+NBRC_PATH = '$XDG_CONFIG_HOME/nb'
 
 # GnuPG
-GNUPGHOME = "$XDG_DATA_HOME/gnupg"
-GPG_TTY = "$(tty)"
+GNUPGHOME = '$XDG_DATA_HOME/gnupg'
+GPG_TTY = '$(tty)'
 
 # Platform IO
-PLATFORMIO_CORE_DIR = "$XDG_DATA_HOME/platformio"  # It's kind of a cache, but it's also other stuff.
+PLATFORMIO_CORE_DIR = '$XDG_DATA_HOME/platformio'  # It"s kind of a cache, but it"s also other stuff.
 
 # Less
-LESSHISTFILE = "$XDG_STATE_HOME/lesshst"
+LESSHISTFILE = '$XDG_STATE_HOME/lesshst'
 
 # rip (rm-improved)
-GRAVEYARD = "$XDG_DATA_HOME/graveyard"
+GRAVEYARD = '$XDG_DATA_HOME/graveyard'
 
 # Make more things follow the XDG Standard
 # Thanks to https://github.com/b3nj5m1n/xdg-ninja for providing hints for what to do!
-ANDROID_HOME = "$XDG_DATA_HOME/android"
-GRADLE_USER_HOME = "$XDG_DATA_HOME/gradle"
+ANDROID_HOME = '$XDG_DATA_HOME/android'
+GRADLE_USER_HOME = '$XDG_DATA_HOME/gradle'
 
 # Colors
 # Help from https://stackoverflow.com/questions/4332478/read-the-current-text-color-in-a-xterm/4332530#4332530
-BLACK = "$([ -t 0 ] && tput setaf 0)"
-RED = "$([ -t 0 ] && tput setaf 1)"
-GREEN = "$([ -t 0 ] && tput setaf 2)"
-YELLOW = "$([ -t 0 ] && tput setaf 3)"
-BLUE = "$([ -t 0 ] && tput setaf 4)"
-MAGENTA = "$([ -t 0 ] && tput setaf 5)"
-CYAN = "$([ -t 0 ] && tput setaf 6)"
-WHITE = "$([ -t 0 ] && tput setaf 7)"
-BRIGHT = "$([ -t 0 ] && tput bold)"
-UNDERLINE = "$([ -t 0 ] && tput smul)"
-REVERSE = "$([ -t 0 ] && tput smso)"
-NORMAL = "$([ -t 0 ] && tput sgr0)"
+BLACK = '$([ -t 0 ] && tput setaf 0)'
+RED = '$([ -t 0 ] && tput setaf 1)'
+GREEN = '$([ -t 0 ] && tput setaf 2)'
+YELLOW = '$([ -t 0 ] && tput setaf 3)'
+BLUE = '$([ -t 0 ] && tput setaf 4)'
+MAGENTA = '$([ -t 0 ] && tput setaf 5)'
+CYAN = '$([ -t 0 ] && tput setaf 6)'
+WHITE = '$([ -t 0 ] && tput setaf 7)'
+BRIGHT = '$([ -t 0 ] && tput bold)'
+UNDERLINE = '$([ -t 0 ] && tput smul)'
+REVERSE = '$([ -t 0 ] && tput smso)'
+NORMAL = '$([ -t 0 ] && tput sgr0)'
 
 # https://superuser.com/questions/82123/
-__CF_USER_TEXT_ENCODING = "0x0:0:0"
+__CF_USER_TEXT_ENCODING = '0x0:0:0'
 
 # Fix for https://superuser.com/a/414953
-DISABLE_AUTO_TITLE="true"
+DISABLE_AUTO_TITLE='true'
