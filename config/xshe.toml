@@ -48,6 +48,7 @@ PATH = [
     '$BIN_HOME',
     '$BIN_HOME/iterm2',
 
+    # Original Path
     '$PATH',
 ]
 
