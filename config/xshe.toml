@@ -16,15 +16,8 @@ BIN_HOME = "~/.local/bin"
 # Pager
 PAGER = "$(which less)"
 
-# Rust
-CARGO_HOME = "$XDG_DATA_HOME/cargo"
-RUSTUP_HOME = "$XDG_DATA_HOME/rustup"
-
-# Eget
-EGET_BIN = "$BIN_HOME/eget"
-
-# V
-VCACHE = "$XDG_CACHE_HOME/vmodules"
+# Editor
+EDITOR = "$(which micro)"
 
 # Homebrew
 HOMEBREW_PREFIX = "$(brew --prefix)"
@@ -58,6 +51,23 @@ PATH = [
     "$PATH",
 ]
 
+# Python
+PYTHONSTARTUP = "$XDG_CONFIG_HOME/pythonrc.py"
+
+# Ruby (suggested by https://github.com/b3nj5m1n/xdg-ninja)
+GEM_HOME = "$XDG_DATA_HOME/gem"
+GEM_SPEC_CACHE = "$XDG_CACHE_HOME/gem"
+BUNDLE_USER_CONFIG = "$XDG_CONFIG_HOME/bundle"
+BUNDLE_USER_CACHE = "$XDG_CACHE_HOME/bundle"
+BUNDLE_USER_PLUGIN = "$XDG_DATA_HOME/bundle"
+
+# Rust
+CARGO_HOME = "$XDG_DATA_HOME/cargo"
+RUSTUP_HOME = "$XDG_DATA_HOME/rustup"
+
+# V
+VCACHE = "$XDG_CACHE_HOME/vmodules"
+
 # https://unix.stackexchange.com/questions/145250/where-is-bashs-history-stored
 HISTFILE.bash = "$XDG_STATE_HOME/bash_history"
 HISTFILE.zsh = "$XDG_STATE_HOME/zsh_history"
@@ -72,6 +82,9 @@ ZSH.zsh = "$XDG_DATA_HOME/oh-my-zsh"  # Path to oh-my-zsh installation.
 # Fish
 fish_greeting.fish = ""
 
+# Eget
+EGET_BIN = "$BIN_HOME/eget"
+
 # Tealdeer
 TEALDEER_CONFIG_DIR = "$XDG_CONFIG_HOME/tealdeer"
 TEALDEER_CACHE_DIR = "$XDG_CACHE_HOME/tealdeer"
@@ -85,20 +98,8 @@ NBRC_PATH = "$XDG_CONFIG_HOME/nb"
 GNUPGHOME = "$XDG_DATA_HOME/gnupg"
 GPG_TTY = "$(tty)"
 
-# Fix for https://superuser.com/a/414953
-DISABLE_AUTO_TITLE="true"
-
-# https://superuser.com/questions/82123/
-__CF_USER_TEXT_ENCODING = "0x0:0:0"
-
-# Python
-PYTHONSTARTUP = "$XDG_CONFIG_HOME/pythonrc.py"
-
 # Platform IO
 PLATFORMIO_CORE_DIR = "$XDG_DATA_HOME/platformio"  # It's kind of a cache, but it's also other stuff.
-
-# Editor
-EDITOR = "$(which micro)"
 
 # Less
 LESSHISTFILE = "$XDG_STATE_HOME/lesshst"
@@ -110,13 +111,6 @@ GRAVEYARD = "$XDG_DATA_HOME/graveyard"
 # Thanks to https://github.com/b3nj5m1n/xdg-ninja for providing hints for what to do!
 ANDROID_HOME = "$XDG_DATA_HOME/android"
 GRADLE_USER_HOME = "$XDG_DATA_HOME/gradle"
-
-GEM_HOME = "$XDG_DATA_HOME/gem"
-GEM_SPEC_CACHE = "$XDG_CACHE_HOME/gem"
-
-BUNDLE_USER_CONFIG = "$XDG_CONFIG_HOME/bundle"
-BUNDLE_USER_CACHE = "$XDG_CACHE_HOME/bundle"
-BUNDLE_USER_PLUGIN = "$XDG_DATA_HOME/bundle"
 
 # Colors
 # Help from https://stackoverflow.com/questions/4332478/read-the-current-text-color-in-a-xterm/4332530#4332530
@@ -132,3 +126,9 @@ BRIGHT = "$([ -t 0 ] && tput bold)"
 UNDERLINE = "$([ -t 0 ] && tput smul)"
 REVERSE = "$([ -t 0 ] && tput smso)"
 NORMAL = "$([ -t 0 ] && tput sgr0)"
+
+# https://superuser.com/questions/82123/
+__CF_USER_TEXT_ENCODING = "0x0:0:0"
+
+# Fix for https://superuser.com/a/414953
+DISABLE_AUTO_TITLE="true"
