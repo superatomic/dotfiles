@@ -56,7 +56,7 @@ PATH = [
     '$BIN_HOME/iterm2',
 
     # Original Path
-    '$PATH',
+    '''$(echo "$PATH" | sed 's/:/\\n/g' | awk '!visited[$0]++' | paste -s -d: -)''',
 ]
 
 MANPATH = ['$(man -w)', '$XDG_CACHE_HOME/tldr-man']
