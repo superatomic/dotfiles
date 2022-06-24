@@ -128,6 +128,14 @@ UNDERLINE = '$([ -t 0 ] && tput smul)'
 REVERSE = '$([ -t 0 ] && tput smso)'
 NORMAL = '$([ -t 0 ] && tput sgr0)'
 
+# Nice aliases
+dotfiles = 'DOTFILE_DIR'
+config = '$XDG_CONFIG_HOME'
+share = '$XDG_DATA_HOME'
+state = '$XDG_STATE_HOME'
+cache = '$XDG_CACHE_HOME'
+bin = '$BIN_HOME'
+
 # https://superuser.com/questions/82123/
 __CF_USER_TEXT_ENCODING = '0x0:0:0'
 
