@@ -49,6 +49,7 @@ brew "exa"
 brew "micro"
 brew "ffmpeg"
 brew "imagemagick"
+brew "ronn"
 brew "usbutils"
 brew "rm-improved"
 brew "trash" # Note: macOS only!
