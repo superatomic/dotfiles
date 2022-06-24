@@ -59,6 +59,8 @@ PATH = [
     '$PATH',
 ]
 
+MANPATH = ['$(man -w)', '$XDG_CACHE_HOME/tldr-man']
+
 # Python
 PYTHONSTARTUP = '$XDG_CONFIG_HOME/pythonrc.py'
 
