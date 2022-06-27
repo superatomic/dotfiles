@@ -130,7 +130,7 @@ UNDERLINE = '$([ -t 0 ] && tput smul)'
 REVERSE = '$([ -t 0 ] && tput smso)'
 NORMAL = '$([ -t 0 ] && tput sgr0)'
 
-# Nice aliases
+# Convenient aliases
 dotfiles = 'DOTFILE_DIR'
 config = '$XDG_CONFIG_HOME'
 share = '$XDG_DATA_HOME'
