@@ -53,6 +53,7 @@ brew "imagemagick"
 brew "pastel"
 brew "ronn"
 brew "usbutils"
+brew "fd"
 brew "rm-improved"
 brew "trash" # Note: macOS only!
 brew "pup"
