@@ -120,6 +120,7 @@ cask "krita"
 # Code Editors
 cask "jetbrains-toolbox"
 cask "vscodium", args: { no_quarantine: true, require_sha: true }
+cask "coteditor"
 
 # Text Processing
 cask "obsidian"
