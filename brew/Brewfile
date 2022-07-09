@@ -81,6 +81,7 @@ brew "cmatrix"
 # Other Brews
 brew "gnupg"
 brew "pinentry-mac"
+brew "mas"
 brew "heroku/brew/heroku"
 brew "openssl@3"
 brew "portaudio"
