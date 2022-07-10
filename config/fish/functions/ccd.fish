@@ -1,3 +1,3 @@
-function ccd --wraps='cd ~/Code/'
-    cd ~/Code/$argv[1]
+function ccd
+    cd ~/Code/"$argv[1]"
 end
