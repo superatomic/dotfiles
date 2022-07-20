@@ -48,7 +48,7 @@ PATH = [
 
     # Other executable locations
     '$EGET_BIN',
-	'$CARGO_HOME/bin',
+    '$CARGO_HOME/bin',
     '~/Library/Application Support/Coursier/bin',
 
     # Local bin
@@ -131,7 +131,7 @@ REVERSE = '$([ -t 0 ] && tput smso)'
 NORMAL = '$([ -t 0 ] && tput sgr0)'
 
 # Convenient aliases
-dotfiles = 'DOTFILE_DIR'
+dotfiles = '$DOTFILE_DIR'
 config = '$XDG_CONFIG_HOME'
 share = '$XDG_DATA_HOME'
 state = '$XDG_STATE_HOME'
