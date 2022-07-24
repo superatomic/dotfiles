@@ -5,4 +5,6 @@ if status is-interactive
     abbr -a lla "ls -la"
 
     abbr -a coffee "caffeinate"
+
+    abbr -a cgh "ccd; gh repo clone"
 end
