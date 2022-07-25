@@ -23,6 +23,8 @@ else
   rustup update
 fi
 
+peval tldr -u
+
 ~/.dotfiles/fish/install.fish
 
 printmsg success 'Finished dotfile installation!'
