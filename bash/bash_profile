@@ -6,4 +6,9 @@ if [ -f "$HB_CNF_HANDLER" ]; then
   source "$HB_CNF_HANDLER";
 fi
 
+tere() {
+    local result=$(command tere "$@")
+    [ -n "$result" ] && cd -- "$result"
+}
+
 source "$XDG_DATA_HOME"/iterm2_shell_integration.bash

@@ -16,5 +16,10 @@ if status is-interactive
         source $HB_CNF_HANDLER
     end
 
+    function tere
+        set -l result (command tere $argv)
+        [ -n "$result" ] && cd -- "$result"
+    end
+
     test -e {$XDG_DATA_HOME}/iterm2_shell_integration.fish ; and source {$XDG_DATA_HOME}/iterm2_shell_integration.fish
 end
