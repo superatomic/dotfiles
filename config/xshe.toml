@@ -19,6 +19,9 @@ PAGER = '$(which less)'
 # Editor
 EDITOR = '$(which micro)'
 
+# Generate LS Colors with `vivid`
+LS_COLORS = '$(vivid generate snazzy)'
+
 # Homebrew
 HOMEBREW_PREFIX = '$(brew --prefix)'
 HOMEBREW_CELLAR = '$(brew --cellar)'
