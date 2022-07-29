@@ -45,9 +45,11 @@ make sure to make your own modifications before sourcing the install script.*
 │   │   └── functions
 │   │       ├── cat.fish
 │   │       ├── ccd.fish
+│   │       ├── cdls.fish
 │   │       ├── code.fish
 │   │       ├── edit.fish
 │   │       ├── ls.fish
+│   │       ├── mkcd.fish
 │   │       ├── pip.fish
 │   │       ├── python.fish
 │   │       ├── python2.fish
@@ -77,7 +79,7 @@ make sure to make your own modifications before sourcing the install script.*
 └── macos
     └── install.zsh
 
-13 directories, 41 files
+13 directories, 43 files
 ```
 
 ## License
