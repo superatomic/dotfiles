@@ -62,7 +62,7 @@ PATH = [
     '''$(echo "$PATH" | sed 's/:/\\n/g' | awk '!visited[$0]++' | paste -s -d: -)''',
 ]
 
-MANPATH = ['$(man -w)', '$XDG_CACHE_HOME/tldr-man']
+MANPATH = ['$(man -w)', '$(tldr --manpath)']
 
 # Python
 PYTHONSTARTUP = '$XDG_CONFIG_HOME/pythonrc.py'
