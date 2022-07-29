@@ -15,6 +15,7 @@ tap "homebrew/command-not-found"
 # Third-Party Taps
 tap "coursier/formulas"
 tap "heroku/brew"
+tap "superatomic/tap"
 tap "superatomic/xshe"
 
 ##==================##
@@ -74,6 +75,7 @@ brew "tree"
 brew "nnn"
 brew "nb"
 brew "jrnl"
+brew "tldr-man"
 brew "poetry"
 brew "ptpython"
 brew "glow"
