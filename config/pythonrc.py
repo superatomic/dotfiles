@@ -28,7 +28,7 @@ def read_file(file_name, split_lines=False):
 
 def await_(coroutine):
     """Runs an coroutine, for use in debugging asynchronous functions."""
-    return asyncio.run(awaitable, debug=True)
+    return asyncio.run(coroutine, debug=True)
 
 
 def _set_ps():
