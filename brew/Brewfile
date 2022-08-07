@@ -16,7 +16,6 @@ tap "homebrew/command-not-found"
 tap "coursier/formulas"
 tap "heroku/brew"
 tap "superatomic/tap"
-tap "superatomic/xshe"
 
 ##==================##
 ##     Formulae     ##
