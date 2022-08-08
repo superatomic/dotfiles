@@ -37,6 +37,7 @@ brew "xonsh"
 # Shell Additions
 brew "starship"
 brew "xshe"
+brew "bash-completion@2"
 brew "zsh-syntax-highlighting"
 brew "fisher"
 brew "thefuck"
