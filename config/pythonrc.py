@@ -9,6 +9,7 @@ import sys, os, asyncio, time, itertools, functools, inspect
 from importlib import reload
 from contextlib import suppress
 from time import sleep
+from asyncio import run as arun
 
 
 def read_file(file_name, split_lines=False):
@@ -24,11 +25,6 @@ def read_file(file_name, split_lines=False):
             return file.readlines()
         else:
             return file.read()
-
-
-def await_(coroutine):
-    """Runs an coroutine, for use in debugging asynchronous functions."""
-    return asyncio.run(coroutine, debug=True)
 
 
 def _set_ps():
