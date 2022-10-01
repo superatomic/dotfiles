@@ -43,20 +43,10 @@ make sure to make your own modifications before sourcing the install script.*
 │   │   │   └── abbrs.fish
 │   │   ├── config.fish
 │   │   └── functions
-│   │       ├── cat.fish
 │   │       ├── ccd.fish
 │   │       ├── cdls.fish
-│   │       ├── code.fish
 │   │       ├── edit.fish
-│   │       ├── ls.fish
-│   │       ├── mkcd.fish
-│   │       ├── pip.fish
-│   │       ├── python.fish
-│   │       ├── python2.fish
-│   │       ├── python3.fish
-│   │       ├── rm.fish
-│   │       ├── slink.fish
-│   │       └── unlink.fish
+│   │       └── mkcd.fish
 │   ├── gitignore
 │   ├── micro
 │   │   └── settings.json
