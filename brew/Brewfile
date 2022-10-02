@@ -62,6 +62,7 @@ brew "pastel"
 brew "gum"
 brew "ronn"
 brew "usbutils"
+brew "exiftool"
 brew "fd"
 brew "rm-improved"
 brew "trash" # Note: macOS only!
