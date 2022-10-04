@@ -1,3 +1,3 @@
 function edit --wraps='$EDITOR' --description 'alias edit $EDITOR'
-  $EDITOR $argv; 
+  $EDITOR $argv
 end
